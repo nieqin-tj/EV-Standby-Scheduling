@@ -1,59 +1,53 @@
 # Station allocation validation
 
-This repository contains the ten-station files needed to reproduce two related scores.
+## English
 
-1. **20-min station-level module demand** (main-text number): MAE 0.62 modules (95% CI 0.44–0.80); relative error 5.44%; normalized bias −2.74%.
-2. **Cabinet-minute equivalent occupancy** (allocation confirmation): MAE 0.17 modules (95% CI 0.14–0.19); relative error 4.94%; normalized bias −0.57%.
+We validate station-level module-demand estimates using ten charging stations (S01–S10). We report two complementary endpoints at different time scales; they should be interpreted separately.
 
-Measured delivered power is not used to form a prediction. It is used only after allocation is frozen.
+| Endpoint | Resolution | Mean absolute error | 95% confidence interval | Relative error | Normalized bias |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Station-level module demand | 20-minute windows | 0.62 modules | 0.44–0.80 | 5.44% | −2.74% |
+| Cabinet equivalent occupancy | Cabinet-minute | 0.17 modules | 0.14–0.19 | 4.94% | −0.57% |
 
-S01 and S02 follow operator-declared rules. S01 shares cabinet power equally by request. S02 reserves one module for every active vehicle and then fills residual capacity in arrival order. S03–S10 use dynamic-demand allocation: clip the request at the gun rating, share the cabinet pool, and project the trajectory onto billed energy.
+For the 20-minute endpoint, we average demand within each cabinet window, round up to an integer number of modules, sum across cabinets, and give each station equal weight in the final score. We provide the station-level breakdown in the [20-minute module-demand report](reports/module_20min.md).
 
-## Reproduce the 0.62 module result
+For allocation confirmation, we implement the operator-declared rules for S01 and S02 and dynamic-demand allocation for S03–S10. We select numerical parameters on validation data and report confirmation results after fixing those choices. We provide station-level power and equivalent-occupancy results in the [allocation report](reports/report.md) and [metrics CSV](reports/metrics.csv).
 
-Scoring inputs are the frozen 20-min windows in `data/module_20min/windows/` (`predicted_modules`, `actual_modules`). Minute-level reconstructed power is in `data/module_20min/minute/`. Session-boundary inputs used to generate the request trajectories are in `data/module_20min/orders/`.
+### Reproducing the results
 
-```text
+We include the frozen 20-minute scoring windows under `data/module_20min/windows/`, minute-level reconstructed power under `data/module_20min/minute/`, and session inputs under `data/module_20min/orders/`. From this directory, we run:
+
+```bash
+python -m pip install -r requirements.txt
 python scripts/score_20min.py
-```
-
-This writes [`reports/module_20min.md`](reports/module_20min.md). The test `tests/test_20min_score.py` checks that the station-equal summary rounds to 0.62, 5.44%, and −2.74%.
-
-## Allocation confirmation
-
-Numerical parameters are selected on the validation split only. Confirmation is scored once. The power MAE down-weights the first three minutes of each session (weight 0.25). Occupancy is `sum(power) / module rating` at cabinet-minute resolution.
-
-| Station | Rule | Sessions | Power MAE (kW) | Occupancy MAE | Relative occupancy MAE |
-|---|---|---:|---:|---:|---:|
-| S01 | equal share | 102 | 1.459 | 0.126 | 4.34% |
-| S02 | one-module floor, then FCFS | 81 | 1.944 | 0.165 | 6.08% |
-| S03 | dynamic demand | 123 | 1.784 | 0.211 | 3.61% |
-| S04 | dynamic demand | 195 | 2.179 | 0.169 | 4.56% |
-| S05 | dynamic demand | 178 | 1.493 | 0.178 | 3.85% |
-| S06 | dynamic demand | 145 | 2.633 | 0.202 | 7.12% |
-| S07 | dynamic demand | 59 | 1.592 | 0.135 | 4.99% |
-| S08 | dynamic demand | 453 | 1.944 | 0.174 | 4.63% |
-| S09 | dynamic demand | 509 | 1.337 | 0.099 | 3.52% |
-| S10 | dynamic demand | 329 | 2.756 | 0.206 | 6.74% |
-
-Full tables: [`reports/report.md`](reports/report.md), [`reports/metrics.csv`](reports/metrics.csv).
-
-```text
-python -m pytest tests -q
 python scripts/run_validation.py
+python -m pytest tests -q
 ```
 
-## Layout
+We keep the original operator curve files outside this repository. The included derived inputs and reports support reproduction of the scores reported above.
 
-```text
-station_allocation/     allocation, energy projection, 20-min scoring
-scripts/                prepare panels, run allocation, score 20-min
-data/stations/          minute panels for allocation confirmation
-data/module_20min/      20-min windows, minute predictions, order inputs
-data/station_01_02_rule_calibration/
-data/hierarchical_resource_stations_02_08/
-tests/
-reports/
+## 中文
+
+我们使用十个充电站（S01–S10）验证站点级模块需求估计。我们分别报告两个时间尺度不同的评价指标，避免将两者混为一谈。
+
+| 评价指标 | 时间尺度 | 平均绝对误差 | 95% 置信区间 | 相对误差 | 归一化偏差 |
+| --- | --- | ---: | ---: | ---: | ---: |
+| 站点级模块需求 | 20 分钟窗口 | 0.62 个模块 | 0.44–0.80 | 5.44% | −2.74% |
+| 机柜等效占用 | 机柜分钟 | 0.17 个模块 | 0.14–0.19 | 4.94% | −0.57% |
+
+对于 20 分钟指标，我们先计算每个机柜窗口内需求的平均值，向上取整为整数模块数，再在站点内汇总；最终结果对各站点等权平均。各站点结果见 [20 分钟模块需求报告](reports/module_20min.md)。
+
+对于分配规则验证，我们对 S01、S02 使用运营方声明的规则，对 S03–S10 使用动态需求分配。我们在验证数据上选择数值参数，并在固定参数后报告确认结果。各站点功率与等效占用结果见 [分配验证报告](reports/report.md)和[指标 CSV](reports/metrics.csv)。
+
+### 复现结果
+
+我们在 `data/module_20min/windows/` 提供固定的 20 分钟评分窗口，在 `data/module_20min/minute/` 提供分钟级重建功率，在 `data/module_20min/orders/` 提供订单输入。在本目录执行：
+
+```bash
+python -m pip install -r requirements.txt
+python scripts/score_20min.py
+python scripts/run_validation.py
+python -m pytest tests -q
 ```
 
-Raw operator curve files are not in this repository. The 20-min windows already contain the predicted and measured integer module demand used for the 0.62 result.
+我们未随仓库分发原始运营曲线文件；提供的衍生输入和报告可用于复现上述评分结果。
