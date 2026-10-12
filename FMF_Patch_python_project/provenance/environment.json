@@ -1,0 +1,10 @@
+{
+  "python": "3.11.16 | packaged by Anaconda, Inc. | (main, Aug 27 2026, 14:36:16) [MSC v.1942 64 bit (AMD64)]",
+  "platform": "win32",
+  "packages": {
+    "torch": "2.14.0+cu130",
+    "numpy": "2.4.6",
+    "pandas": "2.3.3",
+    "pyarrow": "19.0.1"
+  }
+}

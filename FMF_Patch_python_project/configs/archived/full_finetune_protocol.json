@@ -1,0 +1,26 @@
+{
+  "seed": 20260908,
+  "variant": "full",
+  "initial_epoch": 7,
+  "finetune_epochs": 3,
+  "batch": 512,
+  "lr": 3e-05,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1.0,
+  "optimizer_reset": true,
+  "loss_weights": [
+    0.6666666666666666,
+    0.3333333333333333
+  ],
+  "selection_role": "pred_select",
+  "score_keys": [
+    "H1_MedMAE",
+    "H1_RMSE",
+    "H1_Pin90",
+    "H3_MedMAE",
+    "H3_RMSE",
+    "H3_Pin90"
+  ],
+  "score": "mean ratios to epoch0; earliest tie",
+  "test_selection": false
+}

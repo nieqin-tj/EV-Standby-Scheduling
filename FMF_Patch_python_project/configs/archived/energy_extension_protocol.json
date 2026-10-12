@@ -1,0 +1,37 @@
+{
+  "seed": 20260908,
+  "variant": "full",
+  "start": "checkpoints/initial_checkpoint.pt",
+  "initial_epoch": {
+    "original_epoch": 7,
+    "previous_finetune_epoch": 2
+  },
+  "additional_epochs": 2,
+  "batch": 512,
+  "lr": 3e-05,
+  "weight_decay": 0.0001,
+  "gradient_clip": 1,
+  "optimizer": "AdamW",
+  "optimizer_reset": true,
+  "loss_weights": [
+    0.6666666666666666,
+    0.3333333333333333
+  ],
+  "quantiles": [
+    0.5,
+    0.9
+  ],
+  "all_three_modules_unchanged": true,
+  "selection": "rank coverage >.95 <=.959 then minimum annual energy; tie normalized six-metric score then earlier epoch",
+  "prediction_score_role": "pred_select",
+  "calibration_role": "cal_select",
+  "calibration_quantile": 0.95,
+  "minimum_calibration_windows": 100,
+  "no_probe": true,
+  "energy_reference_kwh": 244573.778662054,
+  "energy_reference_target_kwh": 220116.4007958486,
+  "test_selection": false,
+  "test_previously_exposed": true,
+  "strict_online": false,
+  "hashing": false
+}

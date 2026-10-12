@@ -1,0 +1,1 @@
+"""Unmodified archived model implementation."""

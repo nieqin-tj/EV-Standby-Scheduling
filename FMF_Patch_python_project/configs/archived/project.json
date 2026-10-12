@@ -1,0 +1,36 @@
+{
+  "seed": 20260908,
+  "group": "main",
+  "variants": [
+    "full"
+  ],
+  "source_implementations": [
+    "src/workflow.py",
+    "src/bundle_core.py",
+    "src/bundle_model.py",
+    "src/snapshot/src/fmf"
+  ],
+  "shared_data": true,
+  "pure_q50_q90": true,
+  "loss_weights": [
+    0.6666666666666666,
+    0.3333333333333333
+  ],
+  "test_previously_exposed": true,
+  "strict_online": false,
+  "current_result": {
+    "seed": 20260908,
+    "variant": "full",
+    "selected_additional_epoch": 1,
+    "selection_method": "explicit user designation after supplementary test comparison",
+    "selection_role": "user_after_test",
+    "test_read": true,
+    "validation_selection": false,
+    "source": "runs/energy_extension_20261009_v1/test_rechecks/epoch_01",
+    "training_source": "runs/energy_extension_20261009_v1",
+    "old_result_backup": "主结果_消融实验\\主模型\\20260908\\provenance\\previous_main_before_epoch01_20261009_v1",
+    "other_seeds_and_deletions_unchanged": true,
+    "readiness_A_B_use_previous_predictor": true,
+    "full_layout_acceptance": false
+  }
+}
