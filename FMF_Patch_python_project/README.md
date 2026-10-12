@@ -103,3 +103,32 @@ DATA包含模型实际使用的20分钟特征输入和确切窗口，而非1400�
 ## 六基线最终模型与指标（2026-10-12）
 
 六个基线的最终权重位于 `weights/<模型名>/baseline_threshold_20261012/selected_checkpoint.pt`；冻结选择、验证/测试和统一待机能耗结果位于 `results/<模型名>/baseline_threshold_20261012/`。`results/baselines/uniform_results_20261012.json` 是六基线统一测试集汇总，`src/baseline6/load_checkpoint.py` 提供检查点加载入口。本次按要求未复制这些基线的训练日志或逐窗口中间文件。
+
+### 待机能耗与覆盖率
+
+六个基线在统一测试集（1,897,346 个窗口、313 个站点）上评价。FMF-Patch 和 Seasonal Naive 为论文参考结果；相对能耗增幅以 FMF-Patch 的 242,144 kWh/年为基准。基线未舍入的数值见 [`results/baselines/summary_20261012.csv`](results/baselines/summary_20261012.csv)。
+
+| Forecasting model | Annualized standby energy (kWh yr⁻¹) | Empirical coverage (%) | Energy increase relative to FMF-Patch (%) |
+| --- | ---: | ---: | ---: |
+| FMF-Patch | 242,144 | 94.69 | — |
+| Informer | 246,286 | 94.72 | 1.7 |
+| iTransformer | 251,115 | 94.64 | 3.7 |
+| Autoformer | 260,639 | 94.52 | 7.6 |
+| PatchTST | 264,691 | 94.46 | 9.3 |
+| DLinear | 281,729 | 94.67 | 16.3 |
+| TimesNet | 245,417 | 94.61 | 1.4 |
+| Seasonal Naive | 419,924 | 94.48 | 73.4 |
+
+### 预测精度
+
+`Pin90` 是 90% 分位数的 pinball loss。下表数值按三位小数四舍五入，基线原始值同样见上述 CSV；FMF-Patch 的原始值见 [`results/FMF-Patch/archived/test_prediction_metrics.json`](results/FMF-Patch/archived/test_prediction_metrics.json)。
+
+| Model | MedMAE (H=1) | Pin90 (H=1) | MedMAE (H=3) | Pin90 (H=3) |
+| --- | ---: | ---: | ---: | ---: |
+| FMF-Patch | 2.410 | 0.693 | 3.642 | 0.925 |
+| Informer | 2.449 | 0.701 | 3.659 | 0.936 |
+| iTransformer | 2.531 | 0.721 | 3.724 | 0.955 |
+| Autoformer | 2.698 | 0.755 | 3.850 | 0.993 |
+| PatchTST | 2.626 | 0.777 | 3.841 | 1.006 |
+| DLinear | 2.687 | 0.832 | 4.007 | 1.067 |
+| TimesNet | 2.447 | 0.704 | 3.683 | 0.943 |
