@@ -1,0 +1,30 @@
+[
+  {
+    "checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_resume_inputs_20261012_d003_ft1e5\\PatchTST\\original_reference.pt",
+    "source_epoch": 5,
+    "H1_MedMAE": 2.4324726650227646,
+    "H1_Pin90": 0.7309291647066744,
+    "H2_MedMAE": 3.4105376301254164,
+    "H2_Pin90": 0.916429586463081,
+    "H3_MedMAE": 3.666879254135615,
+    "H3_Pin90": 0.9730257753156456,
+    "H1_RMSE": 3.901347919205049,
+    "H2_RMSE": 5.170547874828509,
+    "H3_RMSE": 5.531099761035019,
+    "n_windows": 83339
+  },
+  {
+    "checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_resume_inputs_20261012_d003_ft1e5\\PatchTST\\resume.pt",
+    "source_epoch": 9,
+    "H1_MedMAE": 2.4469738568515713,
+    "H1_Pin90": 0.7354570891271532,
+    "H2_MedMAE": 3.4164623105429706,
+    "H2_Pin90": 0.9158080136809196,
+    "H3_MedMAE": 3.6836641444765577,
+    "H3_Pin90": 0.9750375086924645,
+    "H1_RMSE": 3.9397309455122334,
+    "H2_RMSE": 5.192306110861081,
+    "H3_RMSE": 5.570227334967453,
+    "n_windows": 83339
+  }
+]

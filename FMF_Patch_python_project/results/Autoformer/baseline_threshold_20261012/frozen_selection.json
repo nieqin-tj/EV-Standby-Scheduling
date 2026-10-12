@@ -1,0 +1,38 @@
+{
+  "model": "Autoformer",
+  "selected_finetune_epoch": 0,
+  "validation_score": 1.0,
+  "selected_checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Autoformer\\selected_checkpoint.pt",
+  "validation_metrics": {
+    "H1_MedMAE": 2.518117432889594,
+    "H1_Pin90": 0.7157505888447111,
+    "H2_MedMAE": 3.4410194513511363,
+    "H2_Pin90": 0.9100599800215957,
+    "H3_MedMAE": 3.658703491676589,
+    "H3_Pin90": 0.9539784355060524,
+    "H1_RMSE": 4.086401512736039,
+    "H2_RMSE": 5.25735102470293,
+    "H3_RMSE": 5.559512726170346,
+    "n_windows": 83339
+  },
+  "pre_finetune_checkpoint": {
+    "stage": "prior_checkpoint",
+    "source_epoch": 6,
+    "metrics": {
+      "H1_MedMAE": 2.518117432889594,
+      "H1_Pin90": 0.7157505888447111,
+      "H2_MedMAE": 3.4410194513511363,
+      "H2_Pin90": 0.9100599800215957,
+      "H3_MedMAE": 3.658703491676589,
+      "H3_Pin90": 0.9539784355060524,
+      "H1_RMSE": 4.086401512736039,
+      "H2_RMSE": 5.25735102470293,
+      "H3_RMSE": 5.559512726170346,
+      "n_windows": 83339
+    }
+  },
+  "test_read": false,
+  "test_used_for_selection": false,
+  "original_archives_modified": false,
+  "protocol_correction": "protocol_correction.json"
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "data": "DATA",
+  "models": [
+    {
+      "name": "FMF-Patch",
+      "local_archive_status": "archived",
+      "weights": "weights/FMF-Patch",
+      "results": "results/FMF-Patch",
+      "configs": "configs/FMF-Patch"
+    },
+    {
+      "name": "DLinear",
+      "local_archive_status": "archived",
+      "weights": "weights/DLinear",
+      "results": "results/DLinear",
+      "configs": "configs/DLinear",
+      "latest_baseline_archive": {
+        "weights": "weights/DLinear/baseline_threshold_20261012/selected_checkpoint.pt",
+        "results": "results/DLinear/baseline_threshold_20261012",
+        "configs": "configs/DLinear/baseline_threshold_20261012",
+        "training_logs_copied": false
+      }
+    },
+    {
+      "name": "Informer",
+      "local_archive_status": "archived",
+      "weights": "weights/Informer",
+      "results": "results/Informer",
+      "configs": "configs/Informer",
+      "latest_baseline_archive": {
+        "weights": "weights/Informer/baseline_threshold_20261012/selected_checkpoint.pt",
+        "results": "results/Informer/baseline_threshold_20261012",
+        "configs": "configs/Informer/baseline_threshold_20261012",
+        "training_logs_copied": false
+      }
+    },
+    {
+      "name": "iTransformer",
+      "local_archive_status": "archived",
+      "weights": "weights/iTransformer",
+      "results": "results/iTransformer",
+      "configs": "configs/iTransformer",
+      "latest_baseline_archive": {
+        "weights": "weights/iTransformer/baseline_threshold_20261012/selected_checkpoint.pt",
+        "results": "results/iTransformer/baseline_threshold_20261012",
+        "configs": "configs/iTransformer/baseline_threshold_20261012",
+        "training_logs_copied": false
+      }
+    },
+    {
+      "name": "Autoformer",
+      "local_archive_status": "archived",
+      "weights": "weights/Autoformer",
+      "results": "results/Autoformer",
+      "configs": "configs/Autoformer",
+      "latest_baseline_archive": {
+        "weights": "weights/Autoformer/baseline_threshold_20261012/selected_checkpoint.pt",
+        "results": "results/Autoformer/baseline_threshold_20261012",
+        "configs": "configs/Autoformer/baseline_threshold_20261012",
+        "training_logs_copied": false
+      }
+    },
+    {
+      "name": "PatchTST",
+      "local_archive_status": "archived",
+      "weights": "weights/PatchTST",
+      "results": "results/PatchTST",
+      "configs": "configs/PatchTST",
+      "latest_baseline_archive": {
+        "weights": "weights/PatchTST/baseline_threshold_20261012/selected_checkpoint.pt",
+        "results": "results/PatchTST/baseline_threshold_20261012",
+        "configs": "configs/PatchTST/baseline_threshold_20261012",
+        "training_logs_copied": false
+      }
+    },
+    {
+      "name": "TimesNet",
+      "local_archive_status": "archived",
+      "weights": "weights/TimesNet",
+      "results": "results/TimesNet",
+      "configs": "configs/TimesNet",
+      "latest_baseline_archive": {
+        "weights": "weights/TimesNet/baseline_threshold_20261012/selected_checkpoint.pt",
+        "results": "results/TimesNet/baseline_threshold_20261012",
+        "configs": "configs/TimesNet/baseline_threshold_20261012",
+        "training_logs_copied": false
+      }
+    }
+  ],
+  "note": "Selected checkpoints, frozen metrics, and provenance archived from the 2026-10-12 5090 run; training logs are not published. Complete model inputs are available separately at https://figshare.com/s/930f4c3a22bcf81b2e8f."
+}

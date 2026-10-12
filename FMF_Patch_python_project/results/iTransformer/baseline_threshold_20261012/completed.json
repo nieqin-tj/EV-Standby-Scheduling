@@ -1,0 +1,35 @@
+{
+  "model": "iTransformer",
+  "continuation_epochs": 1,
+  "continuation_stop_reason": "both_absolute_H1_changes_below_0.003",
+  "finetune_epochs": 3,
+  "selected_finetune_epoch": 0,
+  "validation_metrics": {
+    "H1_MedMAE": 2.3461470982888204,
+    "H1_Pin90": 0.680334282268349,
+    "H2_MedMAE": 3.3064602475828946,
+    "H2_Pin90": 0.8698371375020959,
+    "H3_MedMAE": 3.547687225055485,
+    "H3_Pin90": 0.9192102815475589,
+    "H1_RMSE": 3.7604332413318176,
+    "H2_RMSE": 4.982542168923606,
+    "H3_RMSE": 5.316777880867878,
+    "n_windows": 83339
+  },
+  "test_metrics": {
+    "H1_MedMAE": 2.5310935197179107,
+    "H1_Pin90": 0.7205857142233573,
+    "H2_MedMAE": 3.5212911518507495,
+    "H2_Pin90": 0.9121082678901434,
+    "H3_MedMAE": 3.7247831122425827,
+    "H3_Pin90": 0.9553202730396275,
+    "H1_RMSE": 4.015970198416458,
+    "H2_RMSE": 5.304525173179192,
+    "H3_RMSE": 5.59088008502001,
+    "n_windows": 1897346,
+    "test_loss_modules": 1.3739091154404859,
+    "test_windows": 1897346
+  },
+  "original_archives_modified": false,
+  "selected_checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\iTransformer\\selected_checkpoint.pt"
+}

@@ -1,0 +1,74 @@
+{
+  "fmf_reference_kwh": 242144,
+  "models": [
+    {
+      "model": "DLinear",
+      "annual_standby_energy_kwh": 281729.1313180338,
+      "empirical_coverage_percent": 94.6727692260663,
+      "energy_increase_relative_to_FMF_percent": 16.347764684664412,
+      "test_windows": 1897346,
+      "stations": 313,
+      "forecast_replay_max_abs_deviation": 1.9955947117011874e-07,
+      "selected_finetune_epoch": 2
+    },
+    {
+      "model": "Informer",
+      "annual_standby_energy_kwh": 246285.81818217487,
+      "empirical_coverage_percent": 94.72315539706516,
+      "energy_increase_relative_to_FMF_percent": 1.7104773119197114,
+      "test_windows": 1897346,
+      "stations": 313,
+      "forecast_replay_max_abs_deviation": 1.336414499064631e-07,
+      "selected_finetune_epoch": 0
+    },
+    {
+      "model": "iTransformer",
+      "annual_standby_energy_kwh": 251114.6833224832,
+      "empirical_coverage_percent": 94.64230562058792,
+      "energy_increase_relative_to_FMF_percent": 3.704689491576585,
+      "test_windows": 1897346,
+      "stations": 313,
+      "forecast_replay_max_abs_deviation": 2.0218701912710912e-07,
+      "selected_finetune_epoch": 0
+    },
+    {
+      "model": "Autoformer",
+      "annual_standby_energy_kwh": 260638.5795298091,
+      "empirical_coverage_percent": 94.51755241268593,
+      "energy_increase_relative_to_FMF_percent": 7.637843403020139,
+      "test_windows": 1897346,
+      "stations": 313,
+      "forecast_replay_max_abs_deviation": 1.0353878305835451e-06,
+      "prediction_batch_size": 512,
+      "selected_finetune_epoch": 0
+    },
+    {
+      "model": "PatchTST",
+      "annual_standby_energy_kwh": 264690.67116696824,
+      "empirical_coverage_percent": 94.45810094732326,
+      "energy_increase_relative_to_FMF_percent": 9.311265679499892,
+      "test_windows": 1897346,
+      "stations": 313,
+      "forecast_replay_max_abs_deviation": 1.5834837086003972e-07,
+      "selected_finetune_epoch": 0
+    },
+    {
+      "model": "TimesNet",
+      "annual_standby_energy_kwh": 245416.5689557135,
+      "empirical_coverage_percent": 94.61057709031458,
+      "energy_increase_relative_to_FMF_percent": 1.3514970247924918,
+      "test_windows": 1897346,
+      "stations": 313,
+      "forecast_replay_max_abs_deviation": 7.898930745042776e-07,
+      "prediction_batch_size": 512,
+      "selected_finetune_epoch": 0
+    }
+  ],
+  "test_identity": {
+    "passed": true,
+    "windows": 1897346,
+    "stations": 313,
+    "start": "2024-02-24 08:20:00",
+    "end": "2025-06-30 23:00:00"
+  }
+}

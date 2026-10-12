@@ -1,0 +1,22 @@
+{
+  "stage": "finetune",
+  "epoch": 2,
+  "record_kind": "trained_epoch",
+  "learning_rate": 1e-05,
+  "train_loss_normalized": 0.11065051396190308,
+  "train_loss_modules": 1.4959881403207531,
+  "validation_loss_modules": 1.401515412867202,
+  "validation_loss_normalized": 0.10366285439003181,
+  "seconds": 487.66315245628357,
+  "H1_MedMAE": 2.50663780221145,
+  "H1_Pin90": 0.7830136708438995,
+  "H2_MedMAE": 3.5276622787722487,
+  "H2_Pin90": 0.9619355162103701,
+  "H3_MedMAE": 3.82040551498388,
+  "H3_Pin90": 1.01398393278297,
+  "H1_RMSE": 4.23553040543701,
+  "H2_RMSE": 5.416034667681594,
+  "H3_RMSE": 5.802209313457712,
+  "n_windows": 83339,
+  "score": 0.9991538508705221
+}

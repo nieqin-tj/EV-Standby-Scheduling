@@ -1,0 +1,11 @@
+{
+  "model": "TimesNet",
+  "annual_standby_energy_kwh": 245416.5689557135,
+  "empirical_coverage_percent": 94.61057709031458,
+  "energy_increase_relative_to_FMF_percent": 1.3514970247924918,
+  "test_windows": 1897346,
+  "stations": 313,
+  "forecast_replay_max_abs_deviation": 7.898930745042776e-07,
+  "prediction_batch_size": 512,
+  "selected_finetune_epoch": 0
+}

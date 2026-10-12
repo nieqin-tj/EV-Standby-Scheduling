@@ -1,19 +1,17 @@
-# Model input data
+# 数据获取与放置
 
-The complete dataset is distributed separately and is not included in this GitHub repository. The external download link will be added when the data deposit is available.
-
-Place the dataset in this directory with the following layout before training or evaluation:
+本项目的完整313站模型输入数据单独存放于 [Figshare](https://figshare.com/s/930f4c3a22bcf81b2e8f)。GitHub 仓库不包含数据文件。下载后将数据放置在本目录，预期结构如下：
 
 ```text
 DATA/
-  shared/
-    features/<station_id>.npy
-    scaler.npz
-    stations.csv
-    metadata/schema.json
+  shared/features/     313 个站点的特征数组
+  shared/scaler.npz   训练期归一化参数
+  shared/stations.csv 站点容量与功率
+  shared/metadata/   输入说明
   train/windows.parquet
   val/windows.parquet
   test/windows.parquet
+  test/test_keys.parquet
 ```
 
-The feature arrays contain the complete 20-minute model inputs for 313 stations. `windows.parquet` files define the archived split membership; validation membership also records selection roles. Keep the archived scaler and station metadata with the corresponding feature arrays.
+数据放置完成后，从项目根目录运行 `python check_project.py` 检查数据、权重和前向计算。

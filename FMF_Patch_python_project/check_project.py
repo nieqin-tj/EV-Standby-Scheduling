@@ -21,7 +21,7 @@ if __name__=="__main__":
         counts[split]=len(index)
     index=windows(ROOT/"DATA","val",True).iloc[:2]
     checks=[]
-    for path in sorted((ROOT/"weights").glob("*.pt")):
+    for path in sorted((ROOT/"weights/FMF-Patch").glob("*.pt")):
         ck=torch.load(path,map_location="cpu",weights_only=False)
         net=build_model()
         net.load_state_dict(ck["state_dict"],strict=True)

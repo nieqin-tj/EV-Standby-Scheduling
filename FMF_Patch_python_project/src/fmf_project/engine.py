@@ -139,7 +139,7 @@ def run_training(stage):
     parser.add_argument("--learning-rate",type=float,default=3e-4 if stage=="train" else 3e-5)
     parser.add_argument("--batch-size",type=int,default=512)
     parser.add_argument("--eval-batch-size",type=int,default=512)
-    parser.add_argument("--checkpoint",type=Path,default=ROOT/"weights/initial_epoch7.pt" if stage=="finetune" else None)
+    parser.add_argument("--checkpoint",type=Path,default=ROOT/"weights/FMF-Patch/initial_epoch7.pt" if stage=="finetune" else None)
     parser.add_argument("--selection",choices=["lexicographic","normalized_composite"],default="lexicographic" if stage=="train" else "normalized_composite")
     parser.add_argument("--selection-scope",choices=["H1","H1H3"],default="H1H3")
     parser.add_argument("--early-stop-patience",type=int,default=1 if stage=="train" else 0,help="Consecutive rounds below the change threshold; 0 disables stopping with an explicit epoch budget")
@@ -262,7 +262,7 @@ def run_training(stage):
 
 def evaluate_entry():
     parser=argparse.ArgumentParser(description="Evaluate a frozen FMF-Patch checkpoint")
-    parser.add_argument("--checkpoint",type=Path,default=ROOT/"weights/paper_checkpoint.pt")
+    parser.add_argument("--checkpoint",type=Path,default=ROOT/"weights/FMF-Patch/paper_checkpoint.pt")
     parser.add_argument("--data-dir",type=Path,default=ROOT/"DATA")
     parser.add_argument("--split",choices=["train","val","test"],default="test")
     parser.add_argument("--selection-only",action="store_true")

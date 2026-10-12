@@ -1,0 +1,38 @@
+{
+  "model": "iTransformer",
+  "selected_finetune_epoch": 0,
+  "validation_score": 1.0,
+  "selected_checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\iTransformer\\selected_checkpoint.pt",
+  "validation_metrics": {
+    "H1_MedMAE": 2.3461470982888204,
+    "H1_Pin90": 0.680334282268349,
+    "H2_MedMAE": 3.3064602475828946,
+    "H2_Pin90": 0.8698371375020959,
+    "H3_MedMAE": 3.547687225055485,
+    "H3_Pin90": 0.9192102815475589,
+    "H1_RMSE": 3.7604332413318176,
+    "H2_RMSE": 4.982542168923606,
+    "H3_RMSE": 5.316777880867878,
+    "n_windows": 83339
+  },
+  "pre_finetune_checkpoint": {
+    "stage": "prior_checkpoint",
+    "checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_resume_inputs_20261012_d003_ft1e5\\iTransformer\\previous_best.pt",
+    "source_epoch": 11,
+    "metrics": {
+      "H1_MedMAE": 2.3461470982888204,
+      "H1_Pin90": 0.680334282268349,
+      "H2_MedMAE": 3.3064602475828946,
+      "H2_Pin90": 0.8698371375020959,
+      "H3_MedMAE": 3.547687225055485,
+      "H3_Pin90": 0.9192102815475589,
+      "H1_RMSE": 3.7604332413318176,
+      "H2_RMSE": 4.982542168923606,
+      "H3_RMSE": 5.316777880867878,
+      "n_windows": 83339
+    }
+  },
+  "test_read": false,
+  "test_used_for_selection": false,
+  "original_archives_modified": false
+}

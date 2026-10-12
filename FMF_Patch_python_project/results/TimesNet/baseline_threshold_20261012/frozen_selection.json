@@ -1,0 +1,38 @@
+{
+  "model": "TimesNet",
+  "selected_finetune_epoch": 0,
+  "validation_score": 1.0,
+  "selected_checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\TimesNet\\selected_checkpoint.pt",
+  "validation_metrics": {
+    "H1_MedMAE": 2.264106451852125,
+    "H1_Pin90": 0.665360872192978,
+    "H2_MedMAE": 3.263945180145719,
+    "H2_Pin90": 0.8573521235007022,
+    "H3_MedMAE": 3.5001885075138253,
+    "H3_Pin90": 0.9050081750615194,
+    "H1_RMSE": 3.681666524749006,
+    "H2_RMSE": 4.926006849576872,
+    "H3_RMSE": 5.25183435728504,
+    "n_windows": 83339
+  },
+  "pre_finetune_checkpoint": {
+    "stage": "prior_checkpoint",
+    "checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_resume_inputs_20261012_d003_ft1e5\\TimesNet\\original_reference.pt",
+    "source_epoch": 6,
+    "metrics": {
+      "H1_MedMAE": 2.264106451852125,
+      "H1_Pin90": 0.665360872192978,
+      "H2_MedMAE": 3.263945180145719,
+      "H2_Pin90": 0.8573521235007022,
+      "H3_MedMAE": 3.5001885075138253,
+      "H3_Pin90": 0.9050081750615194,
+      "H1_RMSE": 3.681666524749006,
+      "H2_RMSE": 4.926006849576872,
+      "H3_RMSE": 5.25183435728504,
+      "n_windows": 83339
+    }
+  },
+  "test_read": false,
+  "test_used_for_selection": false,
+  "original_archives_modified": false
+}

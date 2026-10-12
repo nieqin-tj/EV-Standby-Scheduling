@@ -1,0 +1,10 @@
+{
+  "model": "iTransformer",
+  "annual_standby_energy_kwh": 251114.6833224832,
+  "empirical_coverage_percent": 94.64230562058792,
+  "energy_increase_relative_to_FMF_percent": 3.704689491576585,
+  "test_windows": 1897346,
+  "stations": 313,
+  "forecast_replay_max_abs_deviation": 2.0218701912710912e-07,
+  "selected_finetune_epoch": 0
+}

@@ -1,0 +1,1886 @@
+{
+  "stations": [
+    {
+      "sid": "3101010047",
+      "offset": 3.0052194595336914,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101010048",
+      "offset": 2.272024154663086,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101010068",
+      "offset": 0.0,
+      "cal_select_count": 95,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101010506",
+      "offset": -1.0,
+      "cal_select_count": 272,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040052",
+      "offset": 2.8805085821985212,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040059",
+      "offset": 1.289407730102539,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040061",
+      "offset": 1.6855802536010742,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040062",
+      "offset": 2.4028282165527344,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040070",
+      "offset": -0.07832908630371094,
+      "cal_select_count": 226,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040499",
+      "offset": 0.0,
+      "cal_select_count": 8,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101040518",
+      "offset": 0.8402423858642578,
+      "cal_select_count": 354,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040527",
+      "offset": 0.6173162460327148,
+      "cal_select_count": 320,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040530",
+      "offset": 1.0,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040531",
+      "offset": 1.8848323822021484,
+      "cal_select_count": 259,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040532",
+      "offset": 1.9654464721679688,
+      "cal_select_count": 351,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101040537",
+      "offset": 2.0,
+      "cal_select_count": 252,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050046",
+      "offset": 2.0,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050060",
+      "offset": 2.2433509826660156,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050498",
+      "offset": 1.322007179260254,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050514",
+      "offset": 1.9215011596679688,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050523",
+      "offset": 1.800367399661333,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050524",
+      "offset": 2.3757858276367188,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050527",
+      "offset": 1.0768089294433594,
+      "cal_select_count": 354,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050528",
+      "offset": -1.0,
+      "cal_select_count": 338,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050530",
+      "offset": 0.4745345115661621,
+      "cal_select_count": 283,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050531",
+      "offset": 0.5474817513798165,
+      "cal_select_count": 318,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101050545",
+      "offset": 0.0,
+      "cal_select_count": 96,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101060022",
+      "offset": 2.390437602996826,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060028",
+      "offset": 3.5982794761657715,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060033",
+      "offset": 1.4018173217773438,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060036",
+      "offset": -0.1594776347082112,
+      "cal_select_count": 230,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060466",
+      "offset": 2.2357091903686523,
+      "cal_select_count": 267,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060471",
+      "offset": 0.0,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060496",
+      "offset": 1.4157052040100098,
+      "cal_select_count": 349,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060497",
+      "offset": -1.0,
+      "cal_select_count": 349,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060498",
+      "offset": 0.0,
+      "cal_select_count": 74,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101060504",
+      "offset": 0.8696489334106445,
+      "cal_select_count": 338,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060515",
+      "offset": -1.0,
+      "cal_select_count": 184,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060519",
+      "offset": 2.218189239501953,
+      "cal_select_count": 137,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060522",
+      "offset": 2.184748649597168,
+      "cal_select_count": 173,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101060525",
+      "offset": 1.6696027742860418,
+      "cal_select_count": 116,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101070050",
+      "offset": 0.0,
+      "cal_select_count": 71,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101070054",
+      "offset": 2.341771125793457,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101070055",
+      "offset": 3.2259292602539062,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101070060",
+      "offset": 4.923145294189453,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101070069",
+      "offset": 0.0,
+      "cal_select_count": 71,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101070074",
+      "offset": 2.637402855928503,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101070513",
+      "offset": 2.1655702590942383,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101070514",
+      "offset": 2.176666259765625,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101070526",
+      "offset": 1.4040555953979492,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101070539",
+      "offset": 0.0,
+      "cal_select_count": 80,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101070550",
+      "offset": -1.0,
+      "cal_select_count": 216,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101070554",
+      "offset": 2.0096607208251953,
+      "cal_select_count": 161,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101090481",
+      "offset": 1.9351266922259907,
+      "cal_select_count": 245,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101090482",
+      "offset": 0.0,
+      "cal_select_count": 93,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101100066",
+      "offset": 0.0,
+      "cal_select_count": 89,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101100072",
+      "offset": 2.2958717346191406,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100081",
+      "offset": 3.7529611587524414,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100085",
+      "offset": 3.0434818267822266,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100538",
+      "offset": 2.050520896911621,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100542",
+      "offset": 2.451385498046875,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100554",
+      "offset": 2.080129623413086,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100558",
+      "offset": 1.2651548385620117,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100559",
+      "offset": 2.6210693017017626,
+      "cal_select_count": 341,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100560",
+      "offset": 2.260361671447754,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100567",
+      "offset": 2.745241165161133,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100572",
+      "offset": 2.432863235473633,
+      "cal_select_count": 257,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100573",
+      "offset": 1.788665771484375,
+      "cal_select_count": 278,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100576",
+      "offset": 5.0069732666015625,
+      "cal_select_count": 159,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100579",
+      "offset": -1.0,
+      "cal_select_count": 213,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100580",
+      "offset": 1.8707513809204102,
+      "cal_select_count": 200,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101100591",
+      "offset": 0.0,
+      "cal_select_count": 0,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101100599",
+      "offset": 0.0,
+      "cal_select_count": 58,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101120131",
+      "offset": 1.274592399597168,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120144",
+      "offset": 2.5826568603515625,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120154",
+      "offset": 1.6759344922220176,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120192",
+      "offset": 2.3254528045654297,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120203",
+      "offset": 1.75138179462812,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120210",
+      "offset": 0.954748946492284,
+      "cal_select_count": 179,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120218",
+      "offset": 2.5511062221223426,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120220",
+      "offset": -1.0,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120222",
+      "offset": 3.958625038533018,
+      "cal_select_count": 198,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120225",
+      "offset": 2.3996896743774414,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120236",
+      "offset": 2.47353458404541,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120237",
+      "offset": 2.57171630859375,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120242",
+      "offset": 1.7281875610351562,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120248",
+      "offset": 2.993048667907715,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120250",
+      "offset": 1.4049959182739258,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120251",
+      "offset": 0.851283073425293,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120261",
+      "offset": 4.9953053934132505,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120750",
+      "offset": 2.040008544921875,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120788",
+      "offset": 2.3982715606689453,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120824",
+      "offset": 2.4742393493652344,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120828",
+      "offset": 0.4219956398010254,
+      "cal_select_count": 265,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120830",
+      "offset": 0.0,
+      "cal_select_count": 94,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101120831",
+      "offset": 1.8812894821166992,
+      "cal_select_count": 346,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120838",
+      "offset": 1.7358126640319824,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120840",
+      "offset": 3.877549707029697,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120847",
+      "offset": 2.5449922551171724,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120852",
+      "offset": 0.7202491760253906,
+      "cal_select_count": 270,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120854",
+      "offset": 2.746133804321289,
+      "cal_select_count": 239,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120868",
+      "offset": -1.0,
+      "cal_select_count": 187,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120886",
+      "offset": 2.4311275482177734,
+      "cal_select_count": 177,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120887",
+      "offset": 1.5251927375793457,
+      "cal_select_count": 166,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120888",
+      "offset": 0.0,
+      "cal_select_count": 94,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101120898",
+      "offset": 0.23246189861090016,
+      "cal_select_count": 107,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120899",
+      "offset": 0.0,
+      "cal_select_count": 43,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101120908",
+      "offset": 2.902402877807617,
+      "cal_select_count": 101,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120913",
+      "offset": 3.380460262298584,
+      "cal_select_count": 101,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101120918",
+      "offset": 0.0,
+      "cal_select_count": 0,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101120929",
+      "offset": 0.0,
+      "cal_select_count": 13,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101130037",
+      "offset": 0.08579111099243164,
+      "cal_select_count": 292,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130064",
+      "offset": 1.363504409790039,
+      "cal_select_count": 115,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130073",
+      "offset": 1.4670486450195312,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130081",
+      "offset": 3.036017062922978,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130108",
+      "offset": 2.1330037117004395,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130114",
+      "offset": 1.7425776695302844,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130147",
+      "offset": 1.6829986572265625,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130153",
+      "offset": 3.3125839233398438,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130174",
+      "offset": 2.4616661071777344,
+      "cal_select_count": 295,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130183",
+      "offset": 2.728616714477539,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130189",
+      "offset": 2.8278331685633837,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130193",
+      "offset": 0.0,
+      "cal_select_count": 10,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101130196",
+      "offset": 1.7301545143127441,
+      "cal_select_count": 282,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130209",
+      "offset": 2.4316272735595703,
+      "cal_select_count": 351,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130213",
+      "offset": 2.816007614135742,
+      "cal_select_count": 278,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130216",
+      "offset": 1.1980681419372559,
+      "cal_select_count": 340,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130220",
+      "offset": 2.9739022254943848,
+      "cal_select_count": 267,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130221",
+      "offset": 3.8204097747802734,
+      "cal_select_count": 271,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130227",
+      "offset": 0.0,
+      "cal_select_count": 73,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101130228",
+      "offset": 1.3587026596069336,
+      "cal_select_count": 120,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130232",
+      "offset": -1.0,
+      "cal_select_count": 211,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130238",
+      "offset": 2.022580293696122,
+      "cal_select_count": 145,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130240",
+      "offset": 3.609189987182617,
+      "cal_select_count": 209,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130248",
+      "offset": 0.0,
+      "cal_select_count": 42,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101130249",
+      "offset": 1.500056266784668,
+      "cal_select_count": 183,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130260",
+      "offset": 2.0163631439208984,
+      "cal_select_count": 162,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130265",
+      "offset": 1.3931326866149902,
+      "cal_select_count": 132,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101130275",
+      "offset": 0.0,
+      "cal_select_count": 82,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101130291",
+      "offset": 0.0,
+      "cal_select_count": 94,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101130302",
+      "offset": 0.0,
+      "cal_select_count": 38,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101130305",
+      "offset": 0.0,
+      "cal_select_count": 31,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101140033",
+      "offset": 1.6620244979858398,
+      "cal_select_count": 316,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140247",
+      "offset": 3.61130428314209,
+      "cal_select_count": 215,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140263",
+      "offset": 0.0,
+      "cal_select_count": 48,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101140267",
+      "offset": 2.006753921508789,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140268",
+      "offset": 2.374342918395996,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140275",
+      "offset": 2.2005629539489746,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140753",
+      "offset": 2.028728485107422,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140755",
+      "offset": 1.7027950286865234,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140769",
+      "offset": 0.6313724605216819,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140774",
+      "offset": 2.471381959576812,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140795",
+      "offset": 2.6802444458007812,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140802",
+      "offset": 2.082460403442383,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140810",
+      "offset": 3.770020008087158,
+      "cal_select_count": 134,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140817",
+      "offset": 3.6458544731140137,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140818",
+      "offset": 2.10076904296875,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140830",
+      "offset": 3.6256256103515625,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140833",
+      "offset": 2.0,
+      "cal_select_count": 299,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140843",
+      "offset": 1.5213861465454102,
+      "cal_select_count": 340,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140854",
+      "offset": 0.2978630065917969,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140856",
+      "offset": 2.0343103408813477,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140857",
+      "offset": 2.1736183166503906,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140867",
+      "offset": 3.136707305908203,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140869",
+      "offset": 1.9627138500686012,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140870",
+      "offset": 2.845745086669922,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140872",
+      "offset": 2.0232696533203125,
+      "cal_select_count": 278,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140884",
+      "offset": 1.475153923034668,
+      "cal_select_count": 219,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140888",
+      "offset": 0.0,
+      "cal_select_count": 82,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101140894",
+      "offset": 0.5061206817626953,
+      "cal_select_count": 264,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140895",
+      "offset": 2.800297260284424,
+      "cal_select_count": 204,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140897",
+      "offset": 1.3620567321777344,
+      "cal_select_count": 221,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140902",
+      "offset": 0.0,
+      "cal_select_count": 93,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101140904",
+      "offset": 2.6932125091552734,
+      "cal_select_count": 192,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140905",
+      "offset": 2.6009039878845215,
+      "cal_select_count": 192,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140908",
+      "offset": 2.996610641479492,
+      "cal_select_count": 163,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140912",
+      "offset": 2.687917709350586,
+      "cal_select_count": 178,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101140915",
+      "offset": 0.0,
+      "cal_select_count": 4,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101140948",
+      "offset": 0.0,
+      "cal_select_count": 36,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101140953",
+      "offset": 0.0,
+      "cal_select_count": 0,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101150141",
+      "offset": 1.3674993515014648,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150245",
+      "offset": 1.3772411346435547,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150246",
+      "offset": 1.848611831665039,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150303",
+      "offset": 2.0723026736105403,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150307",
+      "offset": 1.1138629913330078,
+      "cal_select_count": 312,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150308",
+      "offset": 1.7975454330444336,
+      "cal_select_count": 333,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150312",
+      "offset": 3.0204057795510035,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150314",
+      "offset": -1.0,
+      "cal_select_count": 308,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150327",
+      "offset": 0.6813163757324219,
+      "cal_select_count": 181,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150331",
+      "offset": 3.1278581619262695,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150336",
+      "offset": 2.1543092727661133,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150344",
+      "offset": 1.8717098236083984,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150345",
+      "offset": 2.1985721588134766,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150348",
+      "offset": 1.0444507598876953,
+      "cal_select_count": 202,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150376",
+      "offset": 3.0,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150382",
+      "offset": 1.933489566417128,
+      "cal_select_count": 225,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150399",
+      "offset": 0.9745168685913086,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150400",
+      "offset": 1.8623140713711415,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150408",
+      "offset": 1.6468844413757324,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150409",
+      "offset": 4.972812652587891,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150413",
+      "offset": 3.0217687173222565,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150417",
+      "offset": 2.070490837097168,
+      "cal_select_count": 278,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101150420",
+      "offset": 2.2855215072631836,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151013",
+      "offset": 2.158243179321289,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151014",
+      "offset": 3.4861278533935547,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151029",
+      "offset": 1.700669765472412,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151036",
+      "offset": 1.7238397598266602,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151044",
+      "offset": 2.7598037719726562,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151050",
+      "offset": 1.8016505241394043,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151052",
+      "offset": 1.786147117614746,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151058",
+      "offset": 2.2915000915527344,
+      "cal_select_count": 334,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151059",
+      "offset": 2.600204763013764,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151082",
+      "offset": 2.1134522923116386,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151083",
+      "offset": 1.5740424206642771,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151120",
+      "offset": 0.9192714691162109,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151129",
+      "offset": 1.8163299560546875,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151155",
+      "offset": 0.8903598785400391,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151162",
+      "offset": 1.6001782417297363,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151175",
+      "offset": 1.8239864222619389,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151176",
+      "offset": 2.5803871154785156,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151177",
+      "offset": 0.9537858963012695,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151178",
+      "offset": 0.0,
+      "cal_select_count": 6,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151183",
+      "offset": 3.1346817016601562,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151184",
+      "offset": 1.4916568681164826,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151186",
+      "offset": 1.6904067993164062,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151192",
+      "offset": 1.3834962844848633,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151201",
+      "offset": 2.2332210540771484,
+      "cal_select_count": 259,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151205",
+      "offset": 0.0,
+      "cal_select_count": 94,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151212",
+      "offset": 2.793229103088379,
+      "cal_select_count": 293,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151215",
+      "offset": 2.3109703063964844,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151227",
+      "offset": 0.0,
+      "cal_select_count": 93,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151228",
+      "offset": 2.64145565032959,
+      "cal_select_count": 331,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151231",
+      "offset": 1.5245378607979951,
+      "cal_select_count": 282,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151234",
+      "offset": 1.3829498291015625,
+      "cal_select_count": 335,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151251",
+      "offset": 1.0317339827262195,
+      "cal_select_count": 293,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151252",
+      "offset": 1.256232738494873,
+      "cal_select_count": 292,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151260",
+      "offset": 1.8502635955810547,
+      "cal_select_count": 253,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151270",
+      "offset": 0.20327234268188477,
+      "cal_select_count": 247,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151274",
+      "offset": 4.269214630126953,
+      "cal_select_count": 227,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151283",
+      "offset": -1.0,
+      "cal_select_count": 181,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151289",
+      "offset": -1.0,
+      "cal_select_count": 236,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151294",
+      "offset": 1.6224536895751953,
+      "cal_select_count": 205,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151299",
+      "offset": 1.5789594850533533,
+      "cal_select_count": 187,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151300",
+      "offset": 1.8366012573242188,
+      "cal_select_count": 194,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151304",
+      "offset": 2.4360809326171875,
+      "cal_select_count": 186,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151306",
+      "offset": 3.6443557739257812,
+      "cal_select_count": 116,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151309",
+      "offset": 1.2396583557128906,
+      "cal_select_count": 184,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151315",
+      "offset": 1.3885812759399414,
+      "cal_select_count": 115,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151316",
+      "offset": 0.0,
+      "cal_select_count": 48,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151317",
+      "offset": 1.2554435729980469,
+      "cal_select_count": 164,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151318",
+      "offset": 0.0,
+      "cal_select_count": 16,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151319",
+      "offset": 0.0,
+      "cal_select_count": 9,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151330",
+      "offset": 0.0,
+      "cal_select_count": 11,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151334",
+      "offset": 4.301673889160156,
+      "cal_select_count": 127,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101151376",
+      "offset": 0.0,
+      "cal_select_count": 94,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151381",
+      "offset": 0.0,
+      "cal_select_count": 96,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151382",
+      "offset": 0.0,
+      "cal_select_count": 16,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151390",
+      "offset": 0.0,
+      "cal_select_count": 15,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151399",
+      "offset": 0.0,
+      "cal_select_count": 59,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101151414",
+      "offset": 0.0,
+      "cal_select_count": 36,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101160059",
+      "offset": 3.2076698116597697,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101160065",
+      "offset": 2.2626843452453613,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101160665",
+      "offset": 1.8022642135620117,
+      "cal_select_count": 339,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101160685",
+      "offset": 4.325948715209961,
+      "cal_select_count": 243,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170044",
+      "offset": 1.1979436874389648,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170053",
+      "offset": 1.6067261695861816,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170076",
+      "offset": 2.8603297917024424,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170081",
+      "offset": 3.3520970344543457,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170085",
+      "offset": 1.655344009399414,
+      "cal_select_count": 321,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170087",
+      "offset": 3.7710931549314175,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170094",
+      "offset": 2.3768634843038807,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170096",
+      "offset": 2.11169371778697,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170097",
+      "offset": 1.768209457397461,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170637",
+      "offset": 3.303159713745117,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170638",
+      "offset": 3.784477338525946,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170643",
+      "offset": 1.8791794048696175,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170664",
+      "offset": 2.7777994550240983,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170677",
+      "offset": 2.596166355781385,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170679",
+      "offset": 2.3290227772840773,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170692",
+      "offset": 2.1073665618896484,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170721",
+      "offset": 0.41778993606567383,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170725",
+      "offset": 0.9835777282714844,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170729",
+      "offset": 1.0963640213012695,
+      "cal_select_count": 282,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170730",
+      "offset": 2.0066843032836914,
+      "cal_select_count": 335,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170747",
+      "offset": 0.0,
+      "cal_select_count": 18,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101170762",
+      "offset": 1.1251401901245117,
+      "cal_select_count": 106,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101170776",
+      "offset": 0.0,
+      "cal_select_count": 7,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101180076",
+      "offset": 2.634816784717186,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180077",
+      "offset": 2.897414207458496,
+      "cal_select_count": 188,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180117",
+      "offset": 1.9281697273254395,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180124",
+      "offset": 2.9110279083251953,
+      "cal_select_count": 303,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180665",
+      "offset": 2.475595474243164,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180681",
+      "offset": 2.0467066764831543,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180686",
+      "offset": 2.2435760498046875,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180687",
+      "offset": 1.3324785232543945,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180689",
+      "offset": 1.6013965606689453,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180698",
+      "offset": 3.8212108612060547,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180734",
+      "offset": 2.0,
+      "cal_select_count": 355,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180737",
+      "offset": 3.721607208251953,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180738",
+      "offset": 1.6801247596740723,
+      "cal_select_count": 273,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180749",
+      "offset": 2.7420390938397823,
+      "cal_select_count": 248,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180763",
+      "offset": 3.9602041806873345,
+      "cal_select_count": 165,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101180776",
+      "offset": 0.0,
+      "cal_select_count": 0,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3101200039",
+      "offset": 0.8790216445922852,
+      "cal_select_count": 160,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101200660",
+      "offset": 1.9537429809570312,
+      "cal_select_count": 246,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101200663",
+      "offset": 1.380504439062225,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101200664",
+      "offset": 2.3810863494873047,
+      "cal_select_count": 342,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101200668",
+      "offset": 2.6807994842529297,
+      "cal_select_count": 356,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101200674",
+      "offset": 2.6123938300950655,
+      "cal_select_count": 233,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101200684",
+      "offset": 0.9477052688598633,
+      "cal_select_count": 184,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101200692",
+      "offset": 3.271791437238514,
+      "cal_select_count": 109,
+      "sparse_zero": false
+    },
+    {
+      "sid": "3101200697",
+      "offset": 0.0,
+      "cal_select_count": 94,
+      "sparse_zero": true
+    },
+    {
+      "sid": "3702121009",
+      "offset": 0.5518898963928223,
+      "cal_select_count": 251,
+      "sparse_zero": false
+    }
+  ],
+  "quantile": 0.95,
+  "minimum_windows": 100,
+  "role": "cal_select",
+  "test_read": false
+}

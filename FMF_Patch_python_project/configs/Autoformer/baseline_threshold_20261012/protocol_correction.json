@@ -1,0 +1,14 @@
+{
+  "model": "Autoformer",
+  "rule": "relative validation best: stop after one complete epoch with neither H1 MedMAE nor H1 Pin90 improving by >=0.003",
+  "improvement_threshold": 0.003,
+  "patience": 1,
+  "comparison": "strictly at least 0.003 decrease",
+  "previously_executed_complete_continuation_epochs": 6,
+  "first_epoch_improved": false,
+  "historical_source_kept": true,
+  "partial_epoch_discarded": true,
+  "status": "corrected_protocol_finalization",
+  "original_archive_modified": false,
+  "test_used_for_selection": false
+}

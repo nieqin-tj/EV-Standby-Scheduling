@@ -1,0 +1,1076 @@
+{
+  "archive_date": "2026-10-12",
+  "models": [
+    "DLinear",
+    "Informer",
+    "iTransformer",
+    "Autoformer",
+    "PatchTST",
+    "TimesNet"
+  ],
+  "run": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5",
+  "file_count": 176,
+  "files": [
+    {
+      "path": "weights/DLinear/baseline_threshold_20261012/selected_checkpoint.pt",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\DLinear\\selected_checkpoint.pt",
+      "bytes": 33989,
+      "sha256": "95b773a04b418289101f11afb9b397902d9773ef99bcb81df232962ac0a98e34"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\DLinear\\completed.json",
+      "bytes": 1603,
+      "sha256": "9f506f5c3df7122e22008e200e79feaaa878a6f7ad808900548df455a7020233"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/frozen_selection.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\DLinear\\frozen_selection.json",
+      "bytes": 1768,
+      "sha256": "a4118a2f280e2ccd557f5aca81d0b6270678438ff45dcbc77887b571b31abc8c"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/test_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\DLinear\\test_metrics.json",
+      "bytes": 409,
+      "sha256": "9a9bc107984349cf147663549aff41e06c8f99c8d40c8ca514ac25239ea13138"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/starting_candidate_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\DLinear\\starting_candidate_metrics.json",
+      "bytes": 1612,
+      "sha256": "038e19164148c9f920ef993e13c4f57eba6e859d57a12e15127c0e451a0293e8"
+    },
+    {
+      "path": "configs/DLinear/baseline_threshold_20261012/protocol.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\DLinear\\protocol.json",
+      "bytes": 2184,
+      "sha256": "262381e30f97f02479d611c219f1ae09a7c47851e0cf942a6b6e0529de8bbfad"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\completed.json",
+      "bytes": 339,
+      "sha256": "a335f4c93409434e7b253f11dfd07fd3d4ee4cc70dc9cfad61f865df4640f86d"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/source.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\source.json",
+      "bytes": 551,
+      "sha256": "1b9eba8fe61adcad8a662e7cc78c84ef8c923ae398e903eb8d1a882945965b7f"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/frozen_before_test.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\frozen_before_test.json",
+      "bytes": 357,
+      "sha256": "0b876d5354df298ce06cf339e44e7b98214a91e9fef291d9d9694ba54dff42da"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/frozen_calibration.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\frozen_calibration.json",
+      "bytes": 42922,
+      "sha256": "32f946507ca0d2e9a3a1fa8240dca35b61cab06ab0f3b45483de38f0b566079b"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/test_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\test_operations.json",
+      "bytes": 630,
+      "sha256": "d564695a62b68aca5f8e74e9a96e3e8d802d16d796af74c112872abc61307d0b"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/test_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\test_prediction_metrics.json",
+      "bytes": 436,
+      "sha256": "6782f807aff13542ec274586ab32d6821de5d599927715d071c2bca5d6ca52a2"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/test_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\test_station_results.csv",
+      "bytes": 74797,
+      "sha256": "0f004309c518645c1c5c60b9dd1d85734e17cf8d9073a9aea22427aabe81ddf2"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/validation_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\validation_operations.json",
+      "bytes": 796,
+      "sha256": "f601cc667d0310a5776418ee7d7d080f07cffee7b26e6b0a7a450e1d1924f962"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/validation_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\validation_prediction_metrics.json",
+      "bytes": 437,
+      "sha256": "58c1b9a5d6105427e911d575566c4ddc044d4756de8f6c9fc3df62b9851c073b"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/validation_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\validation_station_results.csv",
+      "bytes": 80248,
+      "sha256": "39921ab2167030981a869025b04cb9b691ae4bf325588047a9f41b268cbcb7db"
+    },
+    {
+      "path": "results/DLinear/baseline_threshold_20261012/uniform/validation_summary.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\DLinear\\validation_summary.json",
+      "bytes": 796,
+      "sha256": "f601cc667d0310a5776418ee7d7d080f07cffee7b26e6b0a7a450e1d1924f962"
+    },
+    {
+      "path": "weights/Informer/baseline_threshold_20261012/selected_checkpoint.pt",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Informer\\selected_checkpoint.pt",
+      "bytes": 7012391,
+      "sha256": "8664bf4af4e9a3772d6d3f3acbf07e6244b9d043585fd7ce5ada96d394b9ac32"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Informer\\completed.json",
+      "bytes": 1229,
+      "sha256": "eee0ea35191301d73680e4eaccc18a670ce3771f3b563fbc68dabcbd61f0bf72"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/frozen_selection.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Informer\\frozen_selection.json",
+      "bytes": 1973,
+      "sha256": "01f3d9cfb0dd63b1030103d16a4b82b20abb742e482ce8f75fabd1ae3a786c9e"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/test_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Informer\\test_metrics.json",
+      "bytes": 411,
+      "sha256": "35c87224b69cb3faede721aff01f7f7d580b2e8e94678be93819781ccf80cba9"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/starting_candidate_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Informer\\starting_candidate_metrics.json",
+      "bytes": 1073,
+      "sha256": "21ee6eae0d57c2dacb8dae5a91394fbd60d23099ca7bc26659ba00dd8b5d29e5"
+    },
+    {
+      "path": "configs/Informer/baseline_threshold_20261012/protocol.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Informer\\protocol.json",
+      "bytes": 2186,
+      "sha256": "be0ed466ef1e5aa9e35bba6d58882de681cf4fd700a08546b08997fbc08dcba4"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\completed.json",
+      "bytes": 341,
+      "sha256": "a5512ade593ac9c39d0d053f24c9e860ef0df22ecc32944cf1cc04d82f4c9055"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/source.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\source.json",
+      "bytes": 553,
+      "sha256": "103418b0b43410dda5aa378d1d908ba212d53e32345355146d512579fd6f907e"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/frozen_before_test.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\frozen_before_test.json",
+      "bytes": 359,
+      "sha256": "3a78f7d10e2bc2929b9051b7205589f1805f2bd15b3dca91523d4372e1a9a9ea"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/frozen_calibration.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\frozen_calibration.json",
+      "bytes": 42799,
+      "sha256": "eb47224b58c35373ec9654e973d1b541cc1d4f41d3e4985922b4f32e6dd8065d"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/test_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\test_operations.json",
+      "bytes": 616,
+      "sha256": "ffde37ea9b4775e5835a47e56b0308ae643de618dfc9cd2f0f88212f8d30d1b9"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/test_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\test_prediction_metrics.json",
+      "bytes": 436,
+      "sha256": "98e9eda97a205ee2388c38c28c4e1c0be3b1489128a9bb0128d548218937b290"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/test_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\test_station_results.csv",
+      "bytes": 74295,
+      "sha256": "8eeb2ca0bcc7868ce4ddbfd8a73e6b6e8d1af72e04012a98a387b0dd264cdf08"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/validation_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\validation_operations.json",
+      "bytes": 798,
+      "sha256": "e7d943df325ecbe197419e90e762203a84dd166a45c21b05b8982e0f1e6c6833"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/validation_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\validation_prediction_metrics.json",
+      "bytes": 438,
+      "sha256": "d96b8721068ff1a93dfe970830098b70880e14025f5909896dfe538c60cf93e8"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/validation_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\validation_station_results.csv",
+      "bytes": 79089,
+      "sha256": "57ca2a9481dac90fbd2cd35d91429e8ebcc24bcdec036b9d379a9a5d76e952fb"
+    },
+    {
+      "path": "results/Informer/baseline_threshold_20261012/uniform/validation_summary.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Informer\\validation_summary.json",
+      "bytes": 798,
+      "sha256": "e7d943df325ecbe197419e90e762203a84dd166a45c21b05b8982e0f1e6c6833"
+    },
+    {
+      "path": "weights/iTransformer/baseline_threshold_20261012/selected_checkpoint.pt",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\iTransformer\\selected_checkpoint.pt",
+      "bytes": 871513,
+      "sha256": "d1e94a508c992f079abf582cc1ac3ce93ee0d87c2d4a79241306735c13872cda"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\iTransformer\\completed.json",
+      "bytes": 1237,
+      "sha256": "6effbcf9086eb94a4ad4f740455fdd27a0124ec1e2659f168e58bae31a42cf18"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/frozen_selection.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\iTransformer\\frozen_selection.json",
+      "bytes": 1392,
+      "sha256": "73f5d33b0836d8c19559f8b9ed087ffcd74fdb599413f8200c0079b4cf035f8a"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/test_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\iTransformer\\test_metrics.json",
+      "bytes": 411,
+      "sha256": "37c6154d4bb81d8dc7a1373b310dff90b5de9ded5fc8be3cf48a4dd8b5df837e"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/starting_candidate_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\iTransformer\\starting_candidate_metrics.json",
+      "bytes": 1635,
+      "sha256": "e93de8733d31ad9f0cd4a75cf64d55f9e80e512b2f897e48b741823f3cf24ed9"
+    },
+    {
+      "path": "configs/iTransformer/baseline_threshold_20261012/protocol.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\iTransformer\\protocol.json",
+      "bytes": 2195,
+      "sha256": "9e5b465d921fa7125851ffdf7f2fe834a77f3817bd95e15dcbafa5355a88b0c1"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\completed.json",
+      "bytes": 344,
+      "sha256": "90e8def0c97a6da7ef9a275f6d400316c91d03ec89142da1c2f10f70f3c530df"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/source.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\source.json",
+      "bytes": 561,
+      "sha256": "035ee603c40802758be26a17e5c43479dd7cbe83efa906b8f95bf1e959ead7f8"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/frozen_before_test.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\frozen_before_test.json",
+      "bytes": 367,
+      "sha256": "cb33971073a28153fe07fc9673bc850ec63d24febec8ab8b11abf4aad2104040"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/frozen_calibration.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\frozen_calibration.json",
+      "bytes": 42818,
+      "sha256": "a69ecb8d60047f63cb47a4a25f94dd3e34937db2feb546bc036e0c03014a928a"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/test_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\test_operations.json",
+      "bytes": 629,
+      "sha256": "32554d107b0ebee64860b62682f17b3a6b8602f2eb9045c9b3143ce559944c49"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/test_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\test_prediction_metrics.json",
+      "bytes": 440,
+      "sha256": "6f5dd320a68b17270987f399eb8a22e1a0356004e9e4dd8f97538fefdcb61c89"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/test_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\test_station_results.csv",
+      "bytes": 74756,
+      "sha256": "1c8593ffb7cefded712d1037482e42a48970312884da97fbbd24432eaa42c6ee"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/validation_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\validation_operations.json",
+      "bytes": 798,
+      "sha256": "1979e9ef934323522ba85db89f1a7e8b2dea6a38c1f992d46a88af585405a552"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/validation_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\validation_prediction_metrics.json",
+      "bytes": 438,
+      "sha256": "64a959dec7b1b2d32fe909aeb578628f8e02b98d11c621df30998bd78266dffb"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/validation_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\validation_station_results.csv",
+      "bytes": 79531,
+      "sha256": "13db8d65e458a466747610e5dbed5adf8a3e1cbffb5c7097a1146324c008cb30"
+    },
+    {
+      "path": "results/iTransformer/baseline_threshold_20261012/uniform/validation_summary.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\iTransformer\\validation_summary.json",
+      "bytes": 798,
+      "sha256": "1979e9ef934323522ba85db89f1a7e8b2dea6a38c1f992d46a88af585405a552"
+    },
+    {
+      "path": "weights/Autoformer/baseline_threshold_20261012/selected_checkpoint.pt",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Autoformer\\selected_checkpoint.pt",
+      "bytes": 6870643,
+      "sha256": "e4ac12a871a9ea45cc2b151b7969c357ae6e12b0b6b7a2942f59cbcfe075f60d"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Autoformer\\completed.json",
+      "bytes": 1280,
+      "sha256": "e907222b86ef75a5c9345d68b134ee23c5496013be863c5dce810c89ddc3610a"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/frozen_selection.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Autoformer\\frozen_selection.json",
+      "bytes": 1282,
+      "sha256": "88d9c0f8057d33a0ac05a4b3d4a15146739ff26d7a34a67537d047561331b2e7"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/test_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Autoformer\\test_metrics.json",
+      "bytes": 409,
+      "sha256": "2da21c5bcb6176fa92a440cc9f3ed7004440c08ce26beebe2e484d2f6aa8f367"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/starting_candidate_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Autoformer\\starting_candidate_metrics.json",
+      "bytes": 1082,
+      "sha256": "e7dc7d74f99f6d6278495d56d9c1ed9119f574a83482a5c16dffe5ac108e420f"
+    },
+    {
+      "path": "configs/Autoformer/baseline_threshold_20261012/protocol.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Autoformer\\protocol.json",
+      "bytes": 2190,
+      "sha256": "bab589e7506cad1675d72661a25a364f7c1a9b285003fdc1e3ac212ac85500f4"
+    },
+    {
+      "path": "configs/Autoformer/baseline_threshold_20261012/protocol_correction.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\Autoformer\\protocol_correction.json",
+      "bytes": 549,
+      "sha256": "6e846e27d8b144bddec2e186213e411c5eddb73ff241635fe5a49fdf4f60ca33"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\completed.json",
+      "bytes": 375,
+      "sha256": "bc77f46f001fd3a3b44355beea0ff35c22746e0cd3b9ca0a9ba40fd4c9ddf82e"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/source.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\source.json",
+      "bytes": 590,
+      "sha256": "f6b1c894d64f4878537fc73ce5d37be412eda8d99ec4fb8240304ae1943db0e4"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/frozen_before_test.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\frozen_before_test.json",
+      "bytes": 363,
+      "sha256": "bc23683786799d53659e5c8558909d6f959d6120e90a2cd7f81fbff3ebf97189"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/frozen_calibration.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\frozen_calibration.json",
+      "bytes": 42646,
+      "sha256": "c831463856027575a575a59562f229a3a50a8c9ede0d23a2adcfac2f886e7b1b"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/test_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\test_operations.json",
+      "bytes": 628,
+      "sha256": "80ed1aa657ed393ddf1f0f25b510faf4b1b3fce40c8c34c10830b8531e48224c"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/test_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\test_prediction_metrics.json",
+      "bytes": 436,
+      "sha256": "222abe291ce4953287ea07971946e9203793088ad283c3baacace0e0a14d51bc"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/test_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\test_station_results.csv",
+      "bytes": 74652,
+      "sha256": "20e7668e3c8682159d32b49de79565b50f11c38aa76b283c0baf8411b87b3ee9"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/validation_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\validation_operations.json",
+      "bytes": 798,
+      "sha256": "3b573419da4ecea412524ff3ab4485daac0915281df0db64a10050d61489908a"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/validation_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\validation_prediction_metrics.json",
+      "bytes": 438,
+      "sha256": "846fc8d7fb1d6ffeb98fb9eb9a478dee4f3a901c8a8a9c0a896a5a089d15cb0d"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/validation_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\validation_station_results.csv",
+      "bytes": 79935,
+      "sha256": "59240748a70ba9f746158d3957bbdfeef2c8365725e59e9c3c06c93e883d3549"
+    },
+    {
+      "path": "results/Autoformer/baseline_threshold_20261012/uniform/validation_summary.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\Autoformer\\validation_summary.json",
+      "bytes": 798,
+      "sha256": "3b573419da4ecea412524ff3ab4485daac0915281df0db64a10050d61489908a"
+    },
+    {
+      "path": "weights/PatchTST/baseline_threshold_20261012/selected_checkpoint.pt",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\PatchTST\\selected_checkpoint.pt",
+      "bytes": 3419615,
+      "sha256": "e2ad00191dcc988c4902c5b14fe6c2f4b77fc854ea620550b0a67a057b4d472b"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\PatchTST\\completed.json",
+      "bytes": 1225,
+      "sha256": "cf21e92d2967b375a7e608e3d10cedaff2d464953142ed4df3fd66161cc7c85c"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/frozen_selection.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\PatchTST\\frozen_selection.json",
+      "bytes": 1382,
+      "sha256": "a9f3a047cd5d603a93e86d89477608752a6861fda02b949262a8bfc46f841b0b"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/test_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\PatchTST\\test_metrics.json",
+      "bytes": 408,
+      "sha256": "fe755d32a8aea73ab052ab8045c951139028b02ff2be6edcffbda243f0140366"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/starting_candidate_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\PatchTST\\starting_candidate_metrics.json",
+      "bytes": 1080,
+      "sha256": "7af7d31ee06b9dcbc591ac5e286d7191cab8afa5b5bbd6b1b471c868e23aba44"
+    },
+    {
+      "path": "configs/PatchTST/baseline_threshold_20261012/protocol.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\PatchTST\\protocol.json",
+      "bytes": 2186,
+      "sha256": "c2263a373716f98fc795bf1cf4e04daeffc37307da2108d5bbe18591aa4b6a02"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\completed.json",
+      "bytes": 341,
+      "sha256": "087e2ad04dd341be2a7022e8ea7b7bf14a5d59074b0c36074cd7ea6201272763"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/source.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\source.json",
+      "bytes": 553,
+      "sha256": "90c988f7303bece0f9cd173f9397a6096e60533a2e22bd9be8e897127c90ccb3"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/frozen_before_test.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\frozen_before_test.json",
+      "bytes": 359,
+      "sha256": "6e884cb062987e63536d962d9c8b05bd1cd076753edc2e0b05213ad6751424e3"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/frozen_calibration.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\frozen_calibration.json",
+      "bytes": 42739,
+      "sha256": "052d2dd7f7f058d73aa9b2ea6b5db92dd05505b71a2a0c856b21081e1ed834d1"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/test_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\test_operations.json",
+      "bytes": 630,
+      "sha256": "f92f56c5f4f5dc56e9b38c14bd222bb6a2659aaa8d9589c58a444ea30fa1a841"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/test_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\test_prediction_metrics.json",
+      "bytes": 434,
+      "sha256": "a966f51007085c0c235aa687835ff82e8c831d33b93e3a3436ce7cd1bddb832b"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/test_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\test_station_results.csv",
+      "bytes": 74704,
+      "sha256": "b4ba7ec94693b581326ada28ae18c95bccbbb34b0bef075fa41b649b431d61ca"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/validation_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\validation_operations.json",
+      "bytes": 797,
+      "sha256": "98c7b7fb40f3349a7a64b6d0c44bcaac8236c5fe7b3d38c15c26945930dadef1"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/validation_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\validation_prediction_metrics.json",
+      "bytes": 440,
+      "sha256": "6deb1d5d73388060674a83bfbdf00609b99eb3ce186e4f3ce963dfbb2fb29d6c"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/validation_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\validation_station_results.csv",
+      "bytes": 79793,
+      "sha256": "e9d879943846146fe2d0fca6a60263ea39ccdcecf53545624fe0096d50097d0e"
+    },
+    {
+      "path": "results/PatchTST/baseline_threshold_20261012/uniform/validation_summary.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\PatchTST\\validation_summary.json",
+      "bytes": 797,
+      "sha256": "98c7b7fb40f3349a7a64b6d0c44bcaac8236c5fe7b3d38c15c26945930dadef1"
+    },
+    {
+      "path": "weights/TimesNet/baseline_threshold_20261012/selected_checkpoint.pt",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\TimesNet\\selected_checkpoint.pt",
+      "bytes": 77712639,
+      "sha256": "c2370c18fcc1472e9a64a6ed5ff2e7e8b6f1613d1f2c76147a0993b7a45fad9b"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\TimesNet\\completed.json",
+      "bytes": 1237,
+      "sha256": "cb7d57e082bd9639fffb4250c146ce382245cb14f158656ed35951284efa9b56"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/frozen_selection.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\TimesNet\\frozen_selection.json",
+      "bytes": 1378,
+      "sha256": "1880c27a4bb242c3d8367b4741a8e1d8602401f9c8da33bc30ce170934db8726"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/test_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\TimesNet\\test_metrics.json",
+      "bytes": 408,
+      "sha256": "16f61abb6ec67ac16f486788e8dce47ee435d28a76bf2f63dc7faf562d55dc14"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/starting_candidate_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\TimesNet\\starting_candidate_metrics.json",
+      "bytes": 1073,
+      "sha256": "77751525fa9b7fbd2c2a2e46d7be626effeaa3dbf29ca9c6441b694194b66765"
+    },
+    {
+      "path": "configs/TimesNet/baseline_threshold_20261012/protocol.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\TimesNet\\protocol.json",
+      "bytes": 2295,
+      "sha256": "74214ae5f79c6018bc5afe4ab4b11e1f33a9dd13b4c5ccbc10505450e5c26827"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/completed.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\completed.json",
+      "bytes": 373,
+      "sha256": "9ebb588a250aa8bffd338ec91dcd8eb2deab7cfc0f933cc7301d2a51cf9dae89"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/source.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\source.json",
+      "bytes": 586,
+      "sha256": "ac4ee2eed95b65ab40dc6736a4eecdbc83d603f68ac68e7e584fac0fd74d316f"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/frozen_before_test.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\frozen_before_test.json",
+      "bytes": 359,
+      "sha256": "da534971d14c7086076782e0cfb6c69342e7690cdaee40799cd733358c8e6c20"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/frozen_calibration.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\frozen_calibration.json",
+      "bytes": 42872,
+      "sha256": "1edaa04f316801812fa745446163aaca3518743f9a9557befde8029f82dc8bce"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/test_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\test_operations.json",
+      "bytes": 628,
+      "sha256": "10d7c840f01bc1968c794404c897c341c80318615710b857f2c1d26e4321a233"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/test_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\test_prediction_metrics.json",
+      "bytes": 440,
+      "sha256": "765f34127a4e975c0394f84dd72a17f0b91bde259b8576534d30b614abf9c759"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/test_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\test_station_results.csv",
+      "bytes": 74614,
+      "sha256": "511d8a94e4fabbb2a118a93e2272cc55bafc7dfe828cbad7b8e90e50b3098d46"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/validation_operations.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\validation_operations.json",
+      "bytes": 799,
+      "sha256": "9b48d7d409be7e74a96ae26314cf34bd11fc7b760581f1b206111387798c6325"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/validation_prediction_metrics.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\validation_prediction_metrics.json",
+      "bytes": 439,
+      "sha256": "b0282e766e5dece5810ef358eef6fe8494e0176fc94de9ea7047343254df8a16"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/validation_station_results.csv",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\validation_station_results.csv",
+      "bytes": 79486,
+      "sha256": "dacc8210222f70d0c37b82988faf8f03a63e02e904c898a09342b6c7491d07e1"
+    },
+    {
+      "path": "results/TimesNet/baseline_threshold_20261012/uniform/validation_summary.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\TimesNet\\validation_summary.json",
+      "bytes": 799,
+      "sha256": "9b48d7d409be7e74a96ae26314cf34bd11fc7b760581f1b206111387798c6325"
+    },
+    {
+      "path": "results/baselines/uniform_results_20261012.json",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\uniform_readiness_test_20261012\\uniform_results.json",
+      "bytes": 2601,
+      "sha256": "a0077e35d6e9fd20e340377863ca8e927453d3991a7fe008e11a04c4fc39cf82"
+    },
+    {
+      "path": "src/baseline6/new_models.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\new_models.py",
+      "bytes": 4117,
+      "sha256": "cb70af8582d8059038149b3b0c74832c3b4f8ab9e4206f42806dbde0e44a8c5a"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/AutoCorrelation.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\AutoCorrelation.py",
+      "bytes": 6625,
+      "sha256": "80b158d71031505c1e646e1419be5508d14410b8a4f64795b0e784bcdbd24ce6"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/Autoformer_EncDec.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\Autoformer_EncDec.py",
+      "bytes": 7034,
+      "sha256": "f69c563c6f7a59ed77769fa26380b583fe63e17a8deb5ee6573a923cccc7d8e7"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/Conv_Blocks.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\Conv_Blocks.py",
+      "bytes": 2436,
+      "sha256": "3ef9f4dfd5ef52ee42c72c907b270d3a842fe6809b0c7efeee013c52769bdafc"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/Crossformer_EncDec.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\Crossformer_EncDec.py",
+      "bytes": 4464,
+      "sha256": "6b279d6a1996254839a570ba50695f8e31d1085639980328dbbb12bddb7bd054"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/DWT_Decomposition.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\DWT_Decomposition.py",
+      "bytes": 48026,
+      "sha256": "dd4c07de6a0a6e5637c2129780bace1c2fb8d734136585130fa92610b79af6ed"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/Embed.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\Embed.py",
+      "bytes": 7202,
+      "sha256": "0a29593e3796b5a3798bd3d37c1150fc2256c559abdee36e83eecd1a05787247"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/ETSformer_EncDec.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\ETSformer_EncDec.py",
+      "bytes": 11767,
+      "sha256": "f68d8390bb63f9fac3b4651d6a443290bb0c2dd5e5ad0f0c4af6852ad3f15a9e"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/FourierCorrelation.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\FourierCorrelation.py",
+      "bytes": 7685,
+      "sha256": "ca54e5328a12dedafec9b6dfbe962e7ecc4e596f67e6cce7fc099e53d909f3b7"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/MambaBlock.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\MambaBlock.py",
+      "bytes": 18647,
+      "sha256": "4e0f36b4a670b1af5989bb54f1668ae93ec9d090260dca82fc65cef029b3b264"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/MSGBlock.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\MSGBlock.py",
+      "bytes": 10226,
+      "sha256": "dcb408f0fd15235c6ea3a1c65e06d0fbf018b805812b3998454cdade3e655b6b"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/MultiWaveletCorrelation.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\MultiWaveletCorrelation.py",
+      "bytes": 23626,
+      "sha256": "49d34c949882d4a00345f31f1fbd7be00060525b0d5b488a87bb474128dab8a8"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/Pyraformer_EncDec.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\Pyraformer_EncDec.py",
+      "bytes": 7651,
+      "sha256": "6bf671b660f71ca23825cb5ad26cbf58998fd1aa7bbaa3bf36537ece5c965302"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/SelfAttention_Family.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\SelfAttention_Family.py",
+      "bytes": 12303,
+      "sha256": "0fea961b640b1a7db471df2e389abfb843ce8e5767aca5af141ee22dd43be66f"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/StandardNorm.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\StandardNorm.py",
+      "bytes": 2252,
+      "sha256": "42c0d7f8019d899e1dac23ffc81fd2e08763f7d824142a3e29842fc3847c5e15"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/TimeFilter_layers.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\TimeFilter_layers.py",
+      "bytes": 10328,
+      "sha256": "ed0e14abd8eda187bb0756a3f5f50dc47d3a10dd0310a4a5effe3b2fd0e4970a"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/Transformer_EncDec.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\Transformer_EncDec.py",
+      "bytes": 5064,
+      "sha256": "031b26a6ed774442bfb4cf316d4a605f7642cd652a4c2b82f5e3d1fcdc47b098"
+    },
+    {
+      "path": "src/baseline6/tslib/layers/__init__.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\layers\\__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Autoformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Autoformer.py",
+      "bytes": 6972,
+      "sha256": "365e392a84a4dafe415b0180cf892cad14836d925558f43133d3f671d77f4890"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Chronos.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Chronos.py",
+      "bytes": 1459,
+      "sha256": "4d3df81774c894e255093f1f20f4e8c0b659555d0341a645058bc3db5fdffc91"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Chronos2.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Chronos2.py",
+      "bytes": 1802,
+      "sha256": "a70731232382e62aef33b9451d1880c42936f17bebdba3eaddb9da64325adb4a"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Crossformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Crossformer.py",
+      "bytes": 6507,
+      "sha256": "221f19c22ab4a54b79a8f714fe40541fb820cffd89336ee470b19c13739e6434"
+    },
+    {
+      "path": "src/baseline6/tslib/models/DLinear.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\DLinear.py",
+      "bytes": 4611,
+      "sha256": "ca5dd503827fb4cc49ca4cf76ba5fba26ffe22a4e765c2c494590741359f33d5"
+    },
+    {
+      "path": "src/baseline6/tslib/models/ETSformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\ETSformer.py",
+      "bytes": 4709,
+      "sha256": "2ee919a7030c1fd645499f2f6b91f72a66ed25b2fee856e196b42e61bb72aeb8"
+    },
+    {
+      "path": "src/baseline6/tslib/models/FEDformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\FEDformer.py",
+      "bytes": 8765,
+      "sha256": "77705b89467b0a8a3418aa2f940757a7b0d0455591c7bf54ef6b5ecb378e32b5"
+    },
+    {
+      "path": "src/baseline6/tslib/models/FiLM.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\FiLM.py",
+      "bytes": 11835,
+      "sha256": "ad5280625e1fffa84d626b4ff97eed82bcbbc219001ffda5b795ac21a51e8e41"
+    },
+    {
+      "path": "src/baseline6/tslib/models/FreTS.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\FreTS.py",
+      "bytes": 4748,
+      "sha256": "b7a0d4e8025c50117be3a60db83bc361094974c103a09610ac05a886e9d64308"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Informer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Informer.py",
+      "bytes": 6542,
+      "sha256": "907b1244cb836838c6f8722c4c9ea5033871b8c50ff54d1b882db5354a78937d"
+    },
+    {
+      "path": "src/baseline6/tslib/models/iTransformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\iTransformer.py",
+      "bytes": 5867,
+      "sha256": "6de6b88dc0bfcaa36599c12626d611205acca7aa4d572f8da5a769ef7afee232"
+    },
+    {
+      "path": "src/baseline6/tslib/models/KANAD.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\KANAD.py",
+      "bytes": 3934,
+      "sha256": "ef1bfe3dbf41fbf6064c25fff2fc1b5cb8b2707178455570a8e24c31986393bb"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Koopa.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Koopa.py",
+      "bytes": 13711,
+      "sha256": "63f0325ca96f7255035af5df40071efb7ef99fb48a98054bb7545c7cfabf14b1"
+    },
+    {
+      "path": "src/baseline6/tslib/models/LightTS.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\LightTS.py",
+      "bytes": 5787,
+      "sha256": "8b564ca41ca8ae14b12f1cb4b4d22050174ba5aff806646d0f2f8690f6670335"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Mamba.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Mamba.py",
+      "bytes": 1639,
+      "sha256": "22d83a8d9a711f14bc25290e5dc344ecb21081fd4f75f7c7291b55815623d57e"
+    },
+    {
+      "path": "src/baseline6/tslib/models/MambaSimple.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\MambaSimple.py",
+      "bytes": 5663,
+      "sha256": "57ba03c6a1e56c81b3416bf9b06735f1a68378d65442850884096a7216250251"
+    },
+    {
+      "path": "src/baseline6/tslib/models/MambaSingleLayer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\MambaSingleLayer.py",
+      "bytes": 5447,
+      "sha256": "dbb69fb426a262d6e162a5fcf0fbe670faa43ec1f152c14a1a8ca789279a6651"
+    },
+    {
+      "path": "src/baseline6/tslib/models/MICN.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\MICN.py",
+      "bytes": 10168,
+      "sha256": "afc941a9487c07eac6ad19eaaf9d4a295f2fbb05fc70df12531415a048458094"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Moirai.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Moirai.py",
+      "bytes": 1839,
+      "sha256": "7c5622ba3ad55e37854c76f28ac0e32aefac35912f5c9e18a87ceb0f44fff7f3"
+    },
+    {
+      "path": "src/baseline6/tslib/models/MSGNet.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\MSGNet.py",
+      "bytes": 9806,
+      "sha256": "c8ab7105c8c1f9482cb1c47ae7deac309159e1dcbf68372c753184adf2b11eb4"
+    },
+    {
+      "path": "src/baseline6/tslib/models/MultiPatchFormer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\MultiPatchFormer.py",
+      "bytes": 12432,
+      "sha256": "e6dfbebdacf6950aa6d642f15e510b5608d439189990145b78b454a18d3a4da9"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Nonstationary_Transformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Nonstationary_Transformer.py",
+      "bytes": 10481,
+      "sha256": "e2acc89e14f628d1d2debad6c44d09c84120b145b8ccab9d5f619e36df39b432"
+    },
+    {
+      "path": "src/baseline6/tslib/models/PatchTST.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\PatchTST.py",
+      "bytes": 9298,
+      "sha256": "e677cd698a9a14f036fbbecc3395146a6407a04ab790d52d433f44e3402e0616"
+    },
+    {
+      "path": "src/baseline6/tslib/models/PAttn.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\PAttn.py",
+      "bytes": 2561,
+      "sha256": "d783a88a5dae648f6e29e202032ff95009181fca4b0ee62df14d4fc90b514cdc"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Pyraformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Pyraformer.py",
+      "bytes": 4316,
+      "sha256": "0905408e4d19944157ffde8e8391aaef93ddfe5153e62e74909ad21b90612206"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Reformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Reformer.py",
+      "bytes": 5222,
+      "sha256": "4ce9a8f57d68937bd50b6dceade205be9d21b27ad40f913afa883bacdb055863"
+    },
+    {
+      "path": "src/baseline6/tslib/models/SCINet.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\SCINet.py",
+      "bytes": 7544,
+      "sha256": "65540a638885bae2d0b019ec72e86b08ba6394abdcf3a312e9c370eddd221e72"
+    },
+    {
+      "path": "src/baseline6/tslib/models/SegRNN.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\SegRNN.py",
+      "bytes": 4334,
+      "sha256": "15d19ba920e43a7bca255cefd7baf58cce06b49e02fa4e0184f9121cdee0c978"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Sundial.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Sundial.py",
+      "bytes": 1342,
+      "sha256": "3e0156e0350cc1b5f2ab171f5dc0a70238ceecbb5180c36d9e27fc62ed332909"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TemporalFusionTransformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TemporalFusionTransformer.py",
+      "bytes": 14335,
+      "sha256": "f56074f1edd7f04698baa49d7a969fab23025d74a67e9d2bb44a4f15bfd8807f"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TiDE.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TiDE.py",
+      "bytes": 7367,
+      "sha256": "80b34056e8a8cd8645482787d8cdceb8d06874f194b9fb7fb9297deb7f9b594e"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TimeFilter.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TimeFilter.py",
+      "bytes": 6946,
+      "sha256": "6ebd60fc670dc33fad4db2144e5bfbcb905117d2a0e2d98fd143d43f999f115a"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TimeMixer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TimeMixer.py",
+      "bytes": 20572,
+      "sha256": "28352d1e7e8f1e7d67545cd5da5da34ab816310175c67502f5b8a2629a66bdbf"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TimeMoE.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TimeMoE.py",
+      "bytes": 1793,
+      "sha256": "30c8aa6de6c70912fdbf6d91ba3dfc669682ea3a6755d116165e351389c93b0a"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TimesFM.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TimesFM.py",
+      "bytes": 1805,
+      "sha256": "00f4b3ef75ac52b5e34426853d30848d1eeebc3ea06f61aa3bfeb8f41494ebdd"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TimesNet.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TimesNet.py",
+      "bytes": 8950,
+      "sha256": "83a09e624cb76a3f36a5ca064e1f0a3c91fad5466df2985d802d949a260e98fe"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TimeXer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TimeXer.py",
+      "bytes": 9243,
+      "sha256": "498165f2532a8434c39060471e5a150af81a16fa9124dc6163d33e885fa2aeae"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TiRex.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TiRex.py",
+      "bytes": 1254,
+      "sha256": "0eea3e8f3199ff9985578b0e66bf0d56c3bd0b66b967f2f375e6aee3140702f4"
+    },
+    {
+      "path": "src/baseline6/tslib/models/Transformer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\Transformer.py",
+      "bytes": 5685,
+      "sha256": "8325b0fd814888c8001992eeea43aca2ec998ffede1dd88fa18c9a8924fcbf8c"
+    },
+    {
+      "path": "src/baseline6/tslib/models/TSMixer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\TSMixer.py",
+      "bytes": 1868,
+      "sha256": "0efbce31f764ffbdab7efe84b9332fb021e461ae774a8bbf9137521ae7c3e594"
+    },
+    {
+      "path": "src/baseline6/tslib/models/WPMixer.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\WPMixer.py",
+      "bytes": 13531,
+      "sha256": "7ce5996df7a1b3a911a9736ad2784a9bab9534e3f9b83791a5af5292b3b66337"
+    },
+    {
+      "path": "src/baseline6/tslib/models/__init__.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\models\\__init__.py",
+      "bytes": 5,
+      "sha256": "d97d758fc2ef4da5eb24a20e940538bb5b8f6ed81d9b2e6ecaf20a2b178daee2"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/ADFtest.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\ADFtest.py",
+      "bytes": 2563,
+      "sha256": "d8c0aa292211c5b4613964d7ad1e12e34806ed3404e55d2095b42c1d8428af4b"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/augmentation.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\augmentation.py",
+      "bytes": 19668,
+      "sha256": "a7c150952e9da97298276d451eb2e7374aeebe5de5e9bc7306f89e4200c766e2"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/dtw.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\dtw.py",
+      "bytes": 7419,
+      "sha256": "1d68b4adea727bbccd89367622963c44471cf6e02f21bc8f5c72805e1a4b4e49"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/dtw_metric.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\dtw_metric.py",
+      "bytes": 5972,
+      "sha256": "45ef00b9edf1a4bacfc5bf187d26442666d85390a4ac54a82e7c700b2ef7bc9b"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/losses.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\losses.py",
+      "bytes": 3548,
+      "sha256": "0f401a20774cabea4e2ddf5e2f0acf66a606e9d783733e19cbf3dc52da5313a3"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/m4_summary.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\m4_summary.py",
+      "bytes": 6314,
+      "sha256": "4ac27f12c37c431ea38b68ac318aab6ec5b96910aaff6a88325740410430252e"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/masking.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\masking.py",
+      "bytes": 858,
+      "sha256": "c22de70ad076f4eeecc857aba984741da05da54375333399ff2742b041544986"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/metrics.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\metrics.py",
+      "bytes": 907,
+      "sha256": "9e1395be82d38f9e5628e64ef607deef6b38ccd22b46556922865a23f7eff48e"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/print_args.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\print_args.py",
+      "bytes": 3199,
+      "sha256": "5d395a3a4f203782344c1aa9ed24c9ddf49a94cfd091cf9a6993083afd008822"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/timefeatures.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\timefeatures.py",
+      "bytes": 4517,
+      "sha256": "ec08852581cedb577b42df903c9bc962041c7258bd38a007c71bad94cde1e4a2"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/tools.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\tools.py",
+      "bytes": 3814,
+      "sha256": "622aa38864b8ddf5c3175ad04523f08d27eb9f943ce3041280cc29c49ff924ae"
+    },
+    {
+      "path": "src/baseline6/tslib/utils/__init__.py",
+      "source": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\src\\snapshot\\tslib\\utils\\__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  ],
+  "excluded": [
+    "training logs",
+    "status/phase files",
+    "per-window prediction and readiness parquet"
+  ]
+}

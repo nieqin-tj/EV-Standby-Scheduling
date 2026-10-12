@@ -1,0 +1,12 @@
+{
+  "model": "TimesNet",
+  "checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\TimesNet\\selected_checkpoint.pt",
+  "archive": "F:\\FMF_ARCHIVES\\主结果_消融实验\\baseline6_readiness2_20261009_v1",
+  "test_windows": 1897346,
+  "validation_selection": 0,
+  "rule": "archived suite.py fixed_operation; fresh validation-only per-station calibration",
+  "prediction_batch_size": 512,
+  "test_used_for_selection": false,
+  "fmf_reference_kwh": 242144,
+  "fmf_reference_source": "user-supplied manuscript table"
+}

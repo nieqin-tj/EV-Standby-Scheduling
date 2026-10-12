@@ -1,0 +1,20 @@
+{
+  "windows": 142342,
+  "stations": 313,
+  "standby_energy_kwh": 4559.179989355455,
+  "annual_standby_energy_kwh": 232044.12395419486,
+  "coverage": 0.9493262705315367,
+  "cumulative_shortfall": 18674.16075110757,
+  "maximum_shortfall": 40.01438522338867,
+  "corrective_event_count": 7213,
+  "corrective_requirement_mw_min": 6929.719698677423,
+  "all_windows_P95": 0.036084342002868544,
+  "all_windows_P99": 4.054083442687966,
+  "all_windows_P99.9": 10.390935621873421,
+  "shortfall_windows_P95": 7.793159103393553,
+  "shortfall_windows_P99": 12.337415448639971,
+  "shortfall_windows_P99.9": 22.415912146320665,
+  "sampled_grid_annual_energy_kwh": 116022.06197709743,
+  "validation_stride2_exposure_weight": 2,
+  "validation_corrective_events_are_observed_sample_starts": true
+}

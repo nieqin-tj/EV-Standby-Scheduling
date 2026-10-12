@@ -1,0 +1,44 @@
+[
+  {
+    "checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_resume_inputs_20261012_d003_ft1e5\\iTransformer\\original_reference.pt",
+    "source_epoch": 3,
+    "H1_MedMAE": 2.3574671598368147,
+    "H1_Pin90": 0.6847905974735168,
+    "H2_MedMAE": 3.3269686686955313,
+    "H2_Pin90": 0.8756333884279068,
+    "H3_MedMAE": 3.5584185744615278,
+    "H3_Pin90": 0.9251634754929274,
+    "H1_RMSE": 3.767399534292963,
+    "H2_RMSE": 5.014195415775623,
+    "H3_RMSE": 5.331789269686295,
+    "n_windows": 83339
+  },
+  {
+    "checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_resume_inputs_20261012_d003_ft1e5\\iTransformer\\previous_best.pt",
+    "source_epoch": 11,
+    "H1_MedMAE": 2.3461470982888204,
+    "H1_Pin90": 0.680334282268349,
+    "H2_MedMAE": 3.3064602475828946,
+    "H2_Pin90": 0.8698371375020959,
+    "H3_MedMAE": 3.547687225055485,
+    "H3_Pin90": 0.9192102815475589,
+    "H1_RMSE": 3.7604332413318176,
+    "H2_RMSE": 4.982542168923606,
+    "H3_RMSE": 5.316777880867878,
+    "n_windows": 83339
+  },
+  {
+    "checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_resume_inputs_20261012_d003_ft1e5\\iTransformer\\resume.pt",
+    "source_epoch": 12,
+    "H1_MedMAE": 2.3463270492593993,
+    "H1_Pin90": 0.6792700425590896,
+    "H2_MedMAE": 3.3132659839867737,
+    "H2_Pin90": 0.8695001484650413,
+    "H3_MedMAE": 3.5589282465375303,
+    "H3_Pin90": 0.9199832146063371,
+    "H1_RMSE": 3.760619364047299,
+    "H2_RMSE": 4.985274665683312,
+    "H3_RMSE": 5.3307301756885535,
+    "n_windows": 83339
+  }
+]

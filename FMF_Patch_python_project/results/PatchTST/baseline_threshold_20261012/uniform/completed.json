@@ -1,0 +1,10 @@
+{
+  "model": "PatchTST",
+  "annual_standby_energy_kwh": 264690.67116696824,
+  "empirical_coverage_percent": 94.45810094732326,
+  "energy_increase_relative_to_FMF_percent": 9.311265679499892,
+  "test_windows": 1897346,
+  "stations": 313,
+  "forecast_replay_max_abs_deviation": 1.5834837086003972e-07,
+  "selected_finetune_epoch": 0
+}

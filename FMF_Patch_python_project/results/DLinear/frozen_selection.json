@@ -1,0 +1,48 @@
+{
+  "model": "DLinear",
+  "selected_finetune_epoch": 2,
+  "validation_score": 0.9991538508705221,
+  "selected_checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_threshold_20261012_d003_ft1e5\\DLinear\\selected_checkpoint.pt",
+  "validation_metrics": {
+    "stage": "finetune",
+    "epoch": 2,
+    "record_kind": "trained_epoch",
+    "learning_rate": 1e-05,
+    "train_loss_normalized": 0.11065051396190308,
+    "train_loss_modules": 1.4959881403207531,
+    "validation_loss_modules": 1.401515412867202,
+    "validation_loss_normalized": 0.10366285439003181,
+    "seconds": 487.66315245628357,
+    "H1_MedMAE": 2.50663780221145,
+    "H1_Pin90": 0.7830136708438995,
+    "H2_MedMAE": 3.5276622787722487,
+    "H2_Pin90": 0.9619355162103701,
+    "H3_MedMAE": 3.82040551498388,
+    "H3_Pin90": 1.01398393278297,
+    "H1_RMSE": 4.23553040543701,
+    "H2_RMSE": 5.416034667681594,
+    "H3_RMSE": 5.802209313457712,
+    "n_windows": 83339,
+    "score": 0.9991538508705221
+  },
+  "pre_finetune_checkpoint": {
+    "stage": "prior_checkpoint",
+    "checkpoint": "F:\\FMF_ARCHIVES\\early_stop_rerun_20261012_s20260908_p3\\baseline_resume_inputs_20261012_d003_ft1e5\\DLinear\\previous_best.pt",
+    "source_epoch": 9,
+    "metrics": {
+      "H1_MedMAE": 2.508007328748792,
+      "H1_Pin90": 0.7841567177320538,
+      "H2_MedMAE": 3.525672412221602,
+      "H2_Pin90": 0.9617504530246797,
+      "H3_MedMAE": 3.8175853431882096,
+      "H3_Pin90": 1.0142857342088714,
+      "H1_RMSE": 4.250316937305455,
+      "H2_RMSE": 5.421159473409604,
+      "H3_RMSE": 5.802414795362069,
+      "n_windows": 83339
+    }
+  },
+  "test_read": false,
+  "test_used_for_selection": false,
+  "original_archives_modified": false
+}

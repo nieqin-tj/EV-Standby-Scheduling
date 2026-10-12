@@ -1,0 +1,10 @@
+{
+  "model": "DLinear",
+  "annual_standby_energy_kwh": 281729.1313180338,
+  "empirical_coverage_percent": 94.6727692260663,
+  "energy_increase_relative_to_FMF_percent": 16.347764684664412,
+  "test_windows": 1897346,
+  "stations": 313,
+  "forecast_replay_max_abs_deviation": 1.9955947117011874e-07,
+  "selected_finetune_epoch": 2
+}

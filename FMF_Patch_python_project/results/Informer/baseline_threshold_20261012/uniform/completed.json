@@ -1,0 +1,10 @@
+{
+  "model": "Informer",
+  "annual_standby_energy_kwh": 246285.81818217487,
+  "empirical_coverage_percent": 94.72315539706516,
+  "energy_increase_relative_to_FMF_percent": 1.7104773119197114,
+  "test_windows": 1897346,
+  "stations": 313,
+  "forecast_replay_max_abs_deviation": 1.336414499064631e-07,
+  "selected_finetune_epoch": 0
+}

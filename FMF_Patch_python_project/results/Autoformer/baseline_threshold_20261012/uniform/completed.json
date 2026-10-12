@@ -1,0 +1,11 @@
+{
+  "model": "Autoformer",
+  "annual_standby_energy_kwh": 260638.5795298091,
+  "empirical_coverage_percent": 94.51755241268593,
+  "energy_increase_relative_to_FMF_percent": 7.637843403020139,
+  "test_windows": 1897346,
+  "stations": 313,
+  "forecast_replay_max_abs_deviation": 1.0353878305835451e-06,
+  "prediction_batch_size": 512,
+  "selected_finetune_epoch": 0
+}

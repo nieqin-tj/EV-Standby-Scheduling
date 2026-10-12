@@ -1,9 +1,8 @@
 __pycache__/
-*.py[cod]
+*.pyc
 .venv/
 runs/
-verification/
+logs/
 DATA/*
 !DATA/README.md
-*.tmp
-*.zip
+results/FMF-Patch/archived/predictions_*.parquet
