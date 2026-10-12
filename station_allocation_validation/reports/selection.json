@@ -1,0 +1,1179 @@
+{
+  "S01": {
+    "winner": {
+      "station_id": "S01",
+      "policy": "equal_share_by_request",
+      "family": "declared_rule",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 1.0,
+      "policy_blend": 0.5,
+      "startup_factor": 1.0,
+      "startup_minutes": 0,
+      "capped_demand_blend": 0.75,
+      "station_trigger_kw": null,
+      "station_cap_kw": null
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S01",
+          "policy": "equal_share_by_request",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 0.5,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.9524953430210965,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S01",
+          "policy": "equal_share_by_request",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.036911575934282,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S01",
+      "configuration": {
+        "station_id": "S01",
+        "policy": "equal_share_by_request",
+        "family": "declared_rule",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 1.0,
+        "policy_blend": 0.5,
+        "startup_factor": 1.0,
+        "startup_minutes": 0,
+        "capped_demand_blend": 0.75,
+        "station_trigger_kw": null,
+        "station_cap_kw": null
+      },
+      "physical_audit": {
+        "n_points": 27899,
+        "n_sessions": 773,
+        "n_energy_infeasible_sessions": 20,
+        "iterations": 1200,
+        "max_energy_error_kw_min": 37.71550000000002,
+        "max_gun_ratio": 0.664692875529623,
+        "max_cabinet_ratio": 1.0000000000000002,
+        "max_station_power_kw": 565.3732765311269,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  },
+  "S02": {
+    "winner": {
+      "station_id": "S02",
+      "policy": "fcfs_minimum_one_module",
+      "family": "declared_rule",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 0.92,
+      "policy_blend": 0.25,
+      "startup_factor": 0.8,
+      "startup_minutes": 2,
+      "capped_demand_blend": 0.75,
+      "station_trigger_kw": null,
+      "station_cap_kw": null
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 0.92,
+          "policy_blend": 0.25,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.26315725274389,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 0.92,
+          "policy_blend": 0.25,
+          "startup_factor": 0.8,
+          "startup_minutes": 2,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.1623959393092353,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 0.25,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.2822423710470803,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 0.25,
+          "startup_factor": 0.8,
+          "startup_minutes": 2,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.17615095989837,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 0.92,
+          "policy_blend": 0.5,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.293140453868989,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 0.92,
+          "policy_blend": 0.5,
+          "startup_factor": 0.8,
+          "startup_minutes": 2,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.2079722722000037,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 0.5,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.310760352863409,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 0.5,
+          "startup_factor": 0.8,
+          "startup_minutes": 2,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.208599129634839,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 0.92,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.4551837503519582,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 0.92,
+          "policy_blend": 1.0,
+          "startup_factor": 0.8,
+          "startup_minutes": 2,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.3914114969262092,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.421530593635193,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S02",
+          "policy": "fcfs_minimum_one_module",
+          "family": "declared_rule",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 0.8,
+          "startup_minutes": 2,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.3198413715027524,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S02",
+      "configuration": {
+        "station_id": "S02",
+        "policy": "fcfs_minimum_one_module",
+        "family": "declared_rule",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 0.92,
+        "policy_blend": 0.25,
+        "startup_factor": 0.8,
+        "startup_minutes": 2,
+        "capped_demand_blend": 0.75,
+        "station_trigger_kw": null,
+        "station_cap_kw": null
+      },
+      "physical_audit": {
+        "n_points": 25472,
+        "n_sessions": 602,
+        "n_energy_infeasible_sessions": 16,
+        "iterations": 280,
+        "max_energy_error_kw_min": 33.68887500000005,
+        "max_gun_ratio": 0.9397401819059618,
+        "max_cabinet_ratio": 1.0,
+        "max_station_power_kw": 410.46937740998084,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  },
+  "S03": {
+    "winner": {
+      "station_id": "S03",
+      "policy": "dynamic_demand",
+      "family": "dynamic_demand",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 1.0,
+      "policy_blend": 1.0,
+      "startup_factor": 1.0,
+      "startup_minutes": 0,
+      "capped_demand_blend": 0.0,
+      "station_trigger_kw": null,
+      "station_cap_kw": null
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S03",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.288209689102396,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S03",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.288209689102396,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S03",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 1.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.288209689102396,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S03",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": 580.0,
+          "station_cap_kw": 680.0
+        },
+        "validation_startup_weighted_mae_kw": 1.303952887697041,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S03",
+      "configuration": {
+        "station_id": "S03",
+        "policy": "dynamic_demand",
+        "family": "dynamic_demand",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 1.0,
+        "policy_blend": 1.0,
+        "startup_factor": 1.0,
+        "startup_minutes": 0,
+        "capped_demand_blend": 0.0,
+        "station_trigger_kw": null,
+        "station_cap_kw": null
+      },
+      "physical_audit": {
+        "n_points": 27253,
+        "n_sessions": 759,
+        "n_energy_infeasible_sessions": 33,
+        "iterations": 20,
+        "max_energy_error_kw_min": 857.8755,
+        "max_gun_ratio": 0.7837628214194017,
+        "max_cabinet_ratio": 1.0000000000000002,
+        "max_station_power_kw": 684.1852078961587,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  },
+  "S04": {
+    "winner": {
+      "station_id": "S04",
+      "policy": "dynamic_demand",
+      "family": "dynamic_demand",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 1.0,
+      "policy_blend": 1.0,
+      "startup_factor": 1.0,
+      "startup_minutes": 0,
+      "capped_demand_blend": 0.0,
+      "station_trigger_kw": null,
+      "station_cap_kw": null
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S04",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.8760665803055994,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S04",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.8760665803055994,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S04",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 1.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.8760665803055994,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S04",
+      "configuration": {
+        "station_id": "S04",
+        "policy": "dynamic_demand",
+        "family": "dynamic_demand",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 1.0,
+        "policy_blend": 1.0,
+        "startup_factor": 1.0,
+        "startup_minutes": 0,
+        "capped_demand_blend": 0.0,
+        "station_trigger_kw": null,
+        "station_cap_kw": null
+      },
+      "physical_audit": {
+        "n_points": 49896,
+        "n_sessions": 1296,
+        "n_energy_infeasible_sessions": 13,
+        "iterations": 260,
+        "max_energy_error_kw_min": 39.18,
+        "max_gun_ratio": 0.8616076726397895,
+        "max_cabinet_ratio": 1.0,
+        "max_station_power_kw": 965.0453556129246,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  },
+  "S05": {
+    "winner": {
+      "station_id": "S05",
+      "policy": "dynamic_demand",
+      "family": "dynamic_demand",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 1.0,
+      "policy_blend": 1.0,
+      "startup_factor": 1.0,
+      "startup_minutes": 0,
+      "capped_demand_blend": 0.0,
+      "station_trigger_kw": 900.0,
+      "station_cap_kw": 900.0
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S05",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.513460368478787,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S05",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.513460368478787,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S05",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 1.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.513460368478787,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S05",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": 900.0,
+          "station_cap_kw": 900.0
+        },
+        "validation_startup_weighted_mae_kw": 1.5131630098485616,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S05",
+      "configuration": {
+        "station_id": "S05",
+        "policy": "dynamic_demand",
+        "family": "dynamic_demand",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 1.0,
+        "policy_blend": 1.0,
+        "startup_factor": 1.0,
+        "startup_minutes": 0,
+        "capped_demand_blend": 0.0,
+        "station_trigger_kw": 900.0,
+        "station_cap_kw": 900.0
+      },
+      "physical_audit": {
+        "n_points": 75929,
+        "n_sessions": 1343,
+        "n_energy_infeasible_sessions": 6,
+        "iterations": 40,
+        "max_energy_error_kw_min": 28.98,
+        "max_gun_ratio": 0.7548434667492009,
+        "max_cabinet_ratio": 1.0,
+        "max_station_power_kw": 856.9935452264801,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  },
+  "S06": {
+    "winner": {
+      "station_id": "S06",
+      "policy": "dynamic_demand",
+      "family": "dynamic_demand",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 1.0,
+      "policy_blend": 1.0,
+      "startup_factor": 1.0,
+      "startup_minutes": 0,
+      "capped_demand_blend": 0.0,
+      "station_trigger_kw": null,
+      "station_cap_kw": null
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S06",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.3477883187245716,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S06",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.3477883187245716,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S06",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 1.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 2.3477883187245716,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S06",
+      "configuration": {
+        "station_id": "S06",
+        "policy": "dynamic_demand",
+        "family": "dynamic_demand",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 1.0,
+        "policy_blend": 1.0,
+        "startup_factor": 1.0,
+        "startup_minutes": 0,
+        "capped_demand_blend": 0.0,
+        "station_trigger_kw": null,
+        "station_cap_kw": null
+      },
+      "physical_audit": {
+        "n_points": 41398,
+        "n_sessions": 1027,
+        "n_energy_infeasible_sessions": 180,
+        "iterations": 1200,
+        "max_energy_error_kw_min": 1166.720661388994,
+        "max_gun_ratio": 1.0,
+        "max_cabinet_ratio": 1.0000000000000002,
+        "max_station_power_kw": 585.5435951615484,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  },
+  "S07": {
+    "winner": {
+      "station_id": "S07",
+      "policy": "dynamic_demand",
+      "family": "dynamic_demand",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 1.0,
+      "policy_blend": 1.0,
+      "startup_factor": 1.0,
+      "startup_minutes": 0,
+      "capped_demand_blend": 0.0,
+      "station_trigger_kw": null,
+      "station_cap_kw": null
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S07",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 3.196121664402202,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S07",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 3.196121664402202,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S07",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 1.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 3.196121664402202,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S07",
+      "configuration": {
+        "station_id": "S07",
+        "policy": "dynamic_demand",
+        "family": "dynamic_demand",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 1.0,
+        "policy_blend": 1.0,
+        "startup_factor": 1.0,
+        "startup_minutes": 0,
+        "capped_demand_blend": 0.0,
+        "station_trigger_kw": null,
+        "station_cap_kw": null
+      },
+      "physical_audit": {
+        "n_points": 29328,
+        "n_sessions": 757,
+        "n_energy_infeasible_sessions": 1,
+        "iterations": 40,
+        "max_energy_error_kw_min": 17.93950000000001,
+        "max_gun_ratio": 0.8533909434228454,
+        "max_cabinet_ratio": 1.0000000000000002,
+        "max_station_power_kw": 885.1692179287744,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  },
+  "S08": {
+    "winner": {
+      "station_id": "S08",
+      "policy": "dynamic_demand",
+      "family": "dynamic_demand",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 1.0,
+      "policy_blend": 1.0,
+      "startup_factor": 1.0,
+      "startup_minutes": 0,
+      "capped_demand_blend": 0.0,
+      "station_trigger_kw": null,
+      "station_cap_kw": null
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S08",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.8046444818327463,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S08",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.8046444818327463,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S08",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 1.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.8046444818327463,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S08",
+      "configuration": {
+        "station_id": "S08",
+        "policy": "dynamic_demand",
+        "family": "dynamic_demand",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 1.0,
+        "policy_blend": 1.0,
+        "startup_factor": 1.0,
+        "startup_minutes": 0,
+        "capped_demand_blend": 0.0,
+        "station_trigger_kw": null,
+        "station_cap_kw": null
+      },
+      "physical_audit": {
+        "n_points": 145107,
+        "n_sessions": 3347,
+        "n_energy_infeasible_sessions": 36,
+        "iterations": 60,
+        "max_energy_error_kw_min": 835.8520000000003,
+        "max_gun_ratio": 1.0,
+        "max_cabinet_ratio": 1.0000000000000002,
+        "max_station_power_kw": 1941.6318270813858,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  },
+  "S09": {
+    "winner": {
+      "station_id": "S09",
+      "policy": "dynamic_demand",
+      "family": "dynamic_demand",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 1.0,
+      "policy_blend": 1.0,
+      "startup_factor": 1.0,
+      "startup_minutes": 0,
+      "capped_demand_blend": 0.0,
+      "station_trigger_kw": null,
+      "station_cap_kw": null
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S09",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.32689426015862,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S09",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.32689426015862,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S09",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 1.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 1.32689426015862,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S09",
+      "configuration": {
+        "station_id": "S09",
+        "policy": "dynamic_demand",
+        "family": "dynamic_demand",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 1.0,
+        "policy_blend": 1.0,
+        "startup_factor": 1.0,
+        "startup_minutes": 0,
+        "capped_demand_blend": 0.0,
+        "station_trigger_kw": null,
+        "station_cap_kw": null
+      },
+      "physical_audit": {
+        "n_points": 76472,
+        "n_sessions": 1962,
+        "n_energy_infeasible_sessions": 29,
+        "iterations": 20,
+        "max_energy_error_kw_min": 1796.16,
+        "max_gun_ratio": 1.0,
+        "max_cabinet_ratio": 1.0000000000000002,
+        "max_station_power_kw": 1411.5505244476378,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  },
+  "S10": {
+    "winner": {
+      "station_id": "S10",
+      "policy": "dynamic_demand",
+      "family": "dynamic_demand",
+      "granularity_threshold_kw": 1.0,
+      "delivered_power_factor": 1.0,
+      "policy_blend": 1.0,
+      "startup_factor": 1.0,
+      "startup_minutes": 0,
+      "capped_demand_blend": 0.75,
+      "station_trigger_kw": 1300.0,
+      "station_cap_kw": 1340.0
+    },
+    "candidates": [
+      {
+        "config": {
+          "station_id": "S10",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 3.701888259060486,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S10",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 3.701888259060486,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S10",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 1.0,
+          "station_trigger_kw": null,
+          "station_cap_kw": null
+        },
+        "validation_startup_weighted_mae_kw": 3.701888259060486,
+        "physical_pass": true
+      },
+      {
+        "config": {
+          "station_id": "S10",
+          "policy": "dynamic_demand",
+          "family": "dynamic_demand",
+          "granularity_threshold_kw": 1.0,
+          "delivered_power_factor": 1.0,
+          "policy_blend": 1.0,
+          "startup_factor": 1.0,
+          "startup_minutes": 0,
+          "capped_demand_blend": 0.75,
+          "station_trigger_kw": 1300.0,
+          "station_cap_kw": 1340.0
+        },
+        "validation_startup_weighted_mae_kw": 3.528317831398424,
+        "physical_pass": true
+      }
+    ],
+    "physical_audit": {
+      "station_id": "S10",
+      "configuration": {
+        "station_id": "S10",
+        "policy": "dynamic_demand",
+        "family": "dynamic_demand",
+        "granularity_threshold_kw": 1.0,
+        "delivered_power_factor": 1.0,
+        "policy_blend": 1.0,
+        "startup_factor": 1.0,
+        "startup_minutes": 0,
+        "capped_demand_blend": 0.75,
+        "station_trigger_kw": 1300.0,
+        "station_cap_kw": 1340.0
+      },
+      "physical_audit": {
+        "n_points": 71634,
+        "n_sessions": 1363,
+        "n_energy_infeasible_sessions": 8,
+        "iterations": 40,
+        "max_energy_error_kw_min": 3114.321177841307,
+        "max_gun_ratio": 0.7866,
+        "max_cabinet_ratio": 1.0000000000000002,
+        "max_station_power_kw": 1339.9999999999998,
+        "gun_violation_count": 0,
+        "cabinet_violation_count": 0,
+        "station_violation_count": 0,
+        "negative_power_count": 0,
+        "physical_pass": true
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "panels": {
+    "S01": {
+      "rows": 27899,
+      "sessions": 773,
+      "source": "data/stations/s01_panel.parquet",
+      "split_rows": {
+        "induction": 15882,
+        "validation": 8069,
+        "confirmation": 3948
+      },
+      "start": "2025-06-30 23:40:00",
+      "end": "2025-07-08 00:29:00"
+    },
+    "S02": {
+      "rows": 25472,
+      "sessions": 602,
+      "source": "data/stations/s02_panel.parquet",
+      "split_rows": {
+        "induction": 15567,
+        "validation": 6446,
+        "confirmation": 3459
+      },
+      "start": "2025-07-01 23:17:00",
+      "end": "2025-07-09 00:59:00"
+    },
+    "S03": {
+      "rows": 27253,
+      "sessions": 759,
+      "source": "data/stations/s03_panel.parquet",
+      "split_rows": {
+        "induction": 14294,
+        "validation": 8786,
+        "confirmation": 4173
+      },
+      "start": "2025-06-27 22:04:00",
+      "end": "2025-07-05 00:28:00"
+    },
+    "S04": {
+      "rows": 49896,
+      "sessions": 1296,
+      "source": "data/stations/s04_panel.parquet",
+      "split_rows": {
+        "induction": 27610,
+        "validation": 14153,
+        "confirmation": 8133
+      },
+      "start": "2025-06-27 23:40:00",
+      "end": "2025-07-05 00:23:00"
+    },
+    "S05": {
+      "rows": 75929,
+      "sessions": 1343,
+      "source": "data/stations/s05_panel.parquet",
+      "split_rows": {
+        "induction": 43035,
+        "validation": 22212,
+        "confirmation": 10682
+      },
+      "start": "2025-07-01 22:00:00",
+      "end": "2025-07-09 01:46:00"
+    },
+    "S06": {
+      "rows": 41398,
+      "sessions": 1027,
+      "source": "data/stations/s06_panel.parquet",
+      "split_rows": {
+        "induction": 23553,
+        "validation": 11635,
+        "confirmation": 6210
+      },
+      "start": "2025-07-01 23:10:00",
+      "end": "2025-07-09 00:33:00"
+    },
+    "S07": {
+      "rows": 29328,
+      "sessions": 757,
+      "source": "data/stations/s07_panel.parquet",
+      "split_rows": {
+        "induction": 16066,
+        "validation": 9676,
+        "confirmation": 3586
+      },
+      "start": "2025-06-22 23:13:00",
+      "end": "2025-06-30 00:37:00"
+    },
+    "S08": {
+      "rows": 145107,
+      "sessions": 3347,
+      "source": "data/stations/s08_panel.parquet",
+      "split_rows": {
+        "induction": 81150,
+        "validation": 42678,
+        "confirmation": 21279
+      },
+      "start": "2025-06-28 23:01:00",
+      "end": "2025-07-06 01:05:00"
+    },
+    "S09": {
+      "rows": 76472,
+      "sessions": 1962,
+      "source": "data/stations/s09_panel.parquet",
+      "split_rows": {
+        "induction": 34195,
+        "validation": 21502,
+        "confirmation": 20775
+      },
+      "start": "2025-06-28 23:24:00",
+      "end": "2025-07-05 23:59:00"
+    },
+    "S10": {
+      "rows": 71634,
+      "sessions": 1363,
+      "source": "data/stations/s10_panel.parquet",
+      "split_rows": {
+        "induction": 29534,
+        "confirmation": 21757,
+        "validation": 20343
+      },
+      "start": "2025-06-28 22:43:00",
+      "end": "2025-07-05 23:59:00"
+    }
+  }
+}
