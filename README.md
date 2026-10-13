@@ -8,4 +8,4 @@ The [FMF-Patch Python project](FMF_Patch_python_project/) provides forecasting a
 
 ## Station allocation validation
 
-The [station allocation validation project](station_allocation_validation/) reconstructs delivered charging power and evaluates station-level module demand. Its README describes the validation data, method, and results.
+The [station allocation validation project](station_allocation_validation/) reconstructs delivered charging power at ten stations under operator-published allocation rules and scores 20-min station-level module demand. Frozen windows in that project reproduce the 0.62-module result. Internal station layout source files are not included. High-resolution charging-process curves and the vehicle-series library will be released on Figshare.

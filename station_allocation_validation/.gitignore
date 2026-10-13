@@ -5,3 +5,5 @@ venv/
 *.pyc
 .DS_Store
 reports/*_predictions.parquet
+data/station_raw/
+data/vehicle_curves/
